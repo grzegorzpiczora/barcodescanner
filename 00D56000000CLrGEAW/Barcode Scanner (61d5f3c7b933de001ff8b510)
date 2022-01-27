@@ -233,6 +233,24 @@
                         "controlling_elements": []
                     },
                     {
+                        "type": "Graphic",
+                        "value": "00D56000000CLrGEAW/61d5f3c7b933de001ff8b510/1cbd-0928-1fb2.image/png",
+                        "name": "Graphic",
+                        "width": "50",
+                        "category": "media",
+                        "label": "Graphic Field",
+                        "icon": "/scripts/formbuilder/img/graphic.png",
+                        "attributes": {
+                            "base64": false,
+                            "position": "Center"
+                        },
+                        "component_id": "1cbd-0928-1fb2",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
                         "type": "Header",
                         "name": "Header",
                         "category": "input",
@@ -290,8 +308,7 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
                     },
                     {
                         "type": "Photo",
