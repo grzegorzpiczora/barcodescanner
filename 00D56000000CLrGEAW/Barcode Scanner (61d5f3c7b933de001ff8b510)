@@ -192,7 +192,7 @@
                         "attributes": {
                             "enable_reload_on_merge_field_change": "true",
                             "html_detail": "<style>\nbody { border: 3px solid blue; }",
-                            "html_edit": "<style type=\"text/css\">\n#component_list {\n  margin-top:0 !important;\n  padding-top: 15px;\n}\n#component-1323-1e20-89d2 {\n  margin-bottom:0;\n}\n#component-94a1-6cd0-736c,\n#component-a369-7ec2-93fc {\n  margin-left:-50px;\n  margin-right:-50px;\n  background: #eee;\n  margin-bottom:0;\n}\n\n#component-a369-7ec2-93fc {\n  padding-bottom:30px;\n}\n\n\n\n.form-control-lg,\n.form-control.input-number,\n.form-control.input_content {\n    padding: 2rem;\n    font-size: 18px;\n    line-height: 1.5;\n}\n\n</style>"
+                            "html_edit": "<style type=\"text/css\">\n#component_list {\n  margin-top:0 !important;\n}\n#component-1323-1e20-89d2 {\n  margin-bottom:0;\n}\n#component-94a1-6cd0-736c,\n#component-a369-7ec2-93fc {\n  margin-left:-50px;\n  margin-right:-50px;\n  background: #eee;\n  margin-bottom:4rem;\n}\n\n#component-a369-7ec2-93fc {\n  padding-bottom:30px;\n}\n\n\n\n.form-control-lg,\n.form-control.input-number,\n.form-control.input_content {\n    padding: 2rem;\n    font-size: 18px;\n    line-height: 1.5;\n}\n\n</style>"
                         },
                         "required": false,
                         "components": [],
