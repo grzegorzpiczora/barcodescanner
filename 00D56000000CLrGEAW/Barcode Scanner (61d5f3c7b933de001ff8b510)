@@ -372,6 +372,23 @@
                         "controlling_elements": []
                     },
                     {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "Separator",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "38f5-500a-9b51",
+                        "attributes": {
+                            "enable_reload_on_merge_field_change": "false",
+                            "html_detail": "<div style=\"height:1rem\"></div>",
+                            "html_edit": "<div style=\"height:1rem\"></div>"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
                         "type": "Header",
                         "name": "Header",
                         "category": "input",
@@ -469,8 +486,7 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
                     },
                     {
                         "type": "HTML",
