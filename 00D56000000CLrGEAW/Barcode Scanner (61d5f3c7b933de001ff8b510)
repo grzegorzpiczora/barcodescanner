@@ -745,21 +745,14 @@
                         "attributes": {
                             "go_to_page": "",
                             "action": "",
-                            "record_min_height": "64",
+                            "record_min_height": "32",
                             "owner_field": "",
                             "column_width": "3",
                             "sfdc_parent_component": "",
                             "sfdc_parent_field_name": "",
                             "custom_offline_lookup_filter": "",
                             "offline_sync_filter": "",
-                            "custom_column_name": [
-                                {
-                                    "alignment": "text-left",
-                                    "html_tag": "<div class=\"col-xs-3\">",
-                                    "field_label": "Name",
-                                    "api_name": "Name"
-                                }
-                            ],
+                            "custom_column_name": [],
                             "table_page_length": "",
                             "query_search_group": "",
                             "query_order_by": "",
