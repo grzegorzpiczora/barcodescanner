@@ -672,7 +672,7 @@
                             "add_new_record_button": false,
                             "table_submit_button_label": "",
                             "add_table_submit_button": true,
-                            "table_column_sort_index": "5",
+                            "table_column_sort_index": "2",
                             "table_column_sort_order": "asc",
                             "owner_field": "",
                             "sfdc_parent_component": "",
