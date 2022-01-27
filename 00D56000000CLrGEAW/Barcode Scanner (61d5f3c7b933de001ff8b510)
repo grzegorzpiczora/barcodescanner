@@ -159,7 +159,7 @@
                         "version": "2",
                         "attributes": {
                             "floating_position": "bottom_right",
-                            "go_to_page": "5",
+                            "go_to_page": "6",
                             "text_color": "#ffffff",
                             "button_border_color": "#5cb85c",
                             "button_color": "#5cb85c",
