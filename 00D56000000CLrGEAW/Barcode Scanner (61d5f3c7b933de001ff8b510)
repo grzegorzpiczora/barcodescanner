@@ -220,7 +220,7 @@
                         "type": "Header",
                         "name": "Header",
                         "category": "input",
-                        "label": "Create Product",
+                        "label": "New Product",
                         "icon": "/scripts/formbuilder/img/header.png",
                         "header": "H2",
                         "component_id": "a369-7ec2-93fc",
