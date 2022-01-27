@@ -673,7 +673,7 @@
                             "table_submit_button_label": "",
                             "add_table_submit_button": true,
                             "table_column_sort_index": "",
-                            "table_column_sort_order": "asc",
+                            "table_column_sort_order": "desc",
                             "owner_field": "",
                             "sfdc_parent_component": "",
                             "sfdc_parent_field_name": "",
@@ -721,7 +721,7 @@
                                     "default_value": "",
                                     "required": false,
                                     "editable": false,
-                                    "data_type": "none",
+                                    "data_type": "date",
                                     "column_label": "Modified",
                                     "api_name": "LastModifiedDate"
                                 }
