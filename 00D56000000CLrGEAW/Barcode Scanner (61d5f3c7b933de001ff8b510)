@@ -49,6 +49,25 @@
                         "controlling_elements": []
                     },
                     {
+                        "type": "Graphic",
+                        "value": "00D56000000CLrGEAW/61d5f3c7b933de001ff8b510/dae3-cc36-2daa.image/png",
+                        "name": "Graphic",
+                        "width": "10",
+                        "category": "media",
+                        "label": "Graphic Field",
+                        "icon": "/scripts/formbuilder/img/graphic.png",
+                        "attributes": {
+                            "data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAgCAYAAADjaQM7AAAAAXNSR0IArs4c6QAAAtpJREFUSEu91knM3VMcxvHPax4SoZQQwULETnRBtKUshIRqomKMhYaNRbsQXTRRNWxY6V6ChSGh0hhiCFERQ0JiiEQkIrpADCUWiNIhD7+TnPffe9/2ve+tk9z8p3vO9zznN874b6zBCXgcO+pdLodgBru6dxPfZqGMt3Bp3T+Pp/AGfutWPhR7sHtSWoMdh4twM1bjWPyNF/AYXq/nxpkI3GD9Zo/GCtxe4Hz7Bc/habw7KbiHZbcZvX0W43Lciivr+88FfgIfDI40a+SYc9z7jFHKmmPk2ttnEa7FHbigVvq61G7Bx93qWTfONQs8Dpb32V2bNHSMs7AKN+HCDvxoOdf2EeBdPaztZC3uxPX4rNvhyN3iHNyCG+s+nI/wZDlY1P87hjaLvR7BOlyCdzpYb4Ns7HD8M7DxebiuwGfXhG3l0VtHwR7CeizDe2NgPXiUY+X70lJ8A07EklGwh3E3lpebt+PtAUdgJT7Hl3VCsWv+e1ipbV59FM7Fp/OFNcdJSPyIB7ARUTdMaQHnl6Mea7O5lDXYSfipQAH2sIRFju2VjpF5uxeqLKoarIXHa7gMOepZY6Gwe3F/KWuwZ8vep/4fsGSTi3HywYLFA6MsTnLQYPfgwYGCVIdUjXjsVGzWvHET7sMxpezPUpbaeNq0YDH+d7XYDxXIeUxMnYJfkSqxIGVt8vGVQ6OoVe0+dr/BXdOAtcAerrXf50nj7Axc3aeiIsUj01Z8iPe7nDlRumppKYVz6xxS0qGlcZqVxOerrMGuwKu4DW9Wz/k7UsPy/pmq4lOBXYWXujLURMbdv50WrO006ejtSri5Hom/qm59gRdxzXyOsbUFKf99l9UaodORtu6PrsSkuU1Af1+F9YDj7Hx8sl9/Hv+HfUJkrh5kQ3VXceVR/X2ONCqHDWnagHRUwwZ2ZHe1GWnnFjJerjgc641t8TORoN05aPUOBB6VKTfJl18NJ+wFqeECcN25sMMAAAAASUVORK5CYII=",
+                            "base64": true,
+                            "position": "Center"
+                        },
+                        "component_id": "dae3-cc36-2daa",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
                         "type": "Header",
                         "name": "Header",
                         "category": "input",
@@ -227,24 +246,6 @@
                             "html_detail": "<div style=\"height:1rem\"></div>",
                             "html_edit": "<div style=\"height:1rem\"></div>"
                         },
-                        "required": false,
-                        "components": [],
-                        "repeat_value": [],
-                        "controlling_elements": []
-                    },
-                    {
-                        "type": "Graphic",
-                        "value": "00D56000000CLrGEAW/61d5f3c7b933de001ff8b510/1cbd-0928-1fb2.image/png",
-                        "name": "Graphic",
-                        "width": "50",
-                        "category": "media",
-                        "label": "Graphic Field",
-                        "icon": "/scripts/formbuilder/img/graphic.png",
-                        "attributes": {
-                            "base64": false,
-                            "position": "Center"
-                        },
-                        "component_id": "1cbd-0928-1fb2",
                         "required": false,
                         "components": [],
                         "repeat_value": [],
