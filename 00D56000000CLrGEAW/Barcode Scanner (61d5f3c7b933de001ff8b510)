@@ -52,7 +52,7 @@
                         "type": "Graphic",
                         "value": "00D56000000CLrGEAW/61d5f3c7b933de001ff8b510/ac0e-6e86-c8b7.image/png",
                         "name": "Graphic",
-                        "width": "10",
+                        "width": "30",
                         "category": "media",
                         "label": "Graphic Field",
                         "icon": "/scripts/formbuilder/img/graphic.png",
