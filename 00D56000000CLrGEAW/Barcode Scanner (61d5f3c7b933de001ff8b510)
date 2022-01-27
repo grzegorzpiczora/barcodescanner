@@ -752,7 +752,14 @@
                             "sfdc_parent_field_name": "",
                             "custom_offline_lookup_filter": "",
                             "offline_sync_filter": "",
-                            "custom_column_name": [],
+                            "custom_column_name": [
+                                {
+                                    "alignment": "text-left",
+                                    "html_tag": "<div class=\"col-xs-3\">",
+                                    "field_label": "Name",
+                                    "api_name": "Name"
+                                }
+                            ],
                             "table_page_length": "",
                             "query_search_group": "",
                             "query_order_by": "",
