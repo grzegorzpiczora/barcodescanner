@@ -658,7 +658,7 @@
                                     "api_name": "Quantity__c"
                                 }
                             ],
-                            "table_page_length": "",
+                            "table_page_length": "20",
                             "query_search_group": "",
                             "query_order_by": "",
                             "query_visibility": "",
