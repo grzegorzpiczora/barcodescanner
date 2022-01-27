@@ -163,9 +163,9 @@
                             "text_color": "#000000",
                             "button_border_color": "#eeeeee",
                             "button_color": "#eeeeee",
-                            "button_type": "standard",
+                            "button_type": "floating",
                             "position": "Fill",
-                            "action": "cancel"
+                            "action": "cancel_and_close"
                         },
                         "component_id": "7b66-a7b8-07d5",
                         "required": false,
@@ -775,7 +775,7 @@
             "enable_access_for_community_users": false,
             "enable_sfdc_storage": false,
             "is_navigation_hidden": true,
-            "is_header_hidden": false,
+            "is_header_hidden": true,
             "is_repeat": true,
             "language_locale_key": ""
         },
