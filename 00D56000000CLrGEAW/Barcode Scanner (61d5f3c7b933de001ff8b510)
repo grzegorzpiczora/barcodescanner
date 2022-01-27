@@ -706,6 +706,15 @@
                                     "data_type": "number",
                                     "column_label": "Quantity",
                                     "api_name": "Quantity__c"
+                                },
+                                {
+                                    "default_option": "",
+                                    "default_value": "",
+                                    "required": false,
+                                    "editable": true,
+                                    "data_type": "currency",
+                                    "column_label": "Price",
+                                    "api_name": "Price__c"
                                 }
                             ],
                             "table_page_length": "20",
