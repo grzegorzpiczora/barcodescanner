@@ -715,6 +715,15 @@
                                     "data_type": "currency",
                                     "column_label": "Price",
                                     "api_name": "Price__c"
+                                },
+                                {
+                                    "default_option": "",
+                                    "default_value": "",
+                                    "required": false,
+                                    "editable": false,
+                                    "data_type": "none",
+                                    "column_label": "Modified",
+                                    "api_name": "LastModifiedDate"
                                 }
                             ],
                             "table_page_length": "20",
