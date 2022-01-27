@@ -165,7 +165,7 @@
                             "button_color": "#eeeeee",
                             "button_type": "standard",
                             "position": "Fill",
-                            "action": "cancel"
+                            "action": "cancel_and_close"
                         },
                         "component_id": "7b66-a7b8-07d5",
                         "required": false,
