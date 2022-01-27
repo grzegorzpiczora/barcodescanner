@@ -131,7 +131,7 @@
                         "type": "Navigation",
                         "name": "Navigation",
                         "category": "input",
-                        "label": "Products",
+                        "label": "Show All",
                         "icon": "/scripts/formbuilder/img/navigation.png",
                         "version": "2",
                         "attributes": {
