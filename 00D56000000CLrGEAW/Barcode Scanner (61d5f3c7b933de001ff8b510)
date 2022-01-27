@@ -747,7 +747,7 @@
                             "action": "",
                             "record_min_height": "64",
                             "owner_field": "",
-                            "column_width": "1",
+                            "column_width": "2",
                             "sfdc_parent_component": "",
                             "sfdc_parent_field_name": "",
                             "custom_offline_lookup_filter": "",
