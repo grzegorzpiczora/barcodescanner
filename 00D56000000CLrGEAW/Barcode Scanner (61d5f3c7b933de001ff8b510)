@@ -579,7 +579,7 @@
                         "type": "Header",
                         "name": "Header",
                         "category": "input",
-                        "label": "Products List",
+                        "label": "Product List",
                         "icon": "/scripts/formbuilder/img/header.png",
                         "header": "H2",
                         "component_id": "7ae7-8588-6828",
@@ -696,27 +696,6 @@
                             "action": "cancel"
                         },
                         "component_id": "5041-970c-ee4b",
-                        "required": false,
-                        "components": [],
-                        "repeat_value": [],
-                        "controlling_elements": []
-                    }
-                ]
-            },
-            {
-                "page_id": "94a3-b88e-280f",
-                "title": "Page 4",
-                "page_index": 4,
-                "component_count": null,
-                "deployed": true,
-                "components": [
-                    {
-                        "type": "Paragraph",
-                        "name": "Paragraph",
-                        "category": "input",
-                        "label": "This is an example paragraph text generated for your form.",
-                        "icon": "/scripts/formbuilder/img/paragraph.png",
-                        "component_id": "1867-98e7-e249",
                         "required": false,
                         "components": [],
                         "repeat_value": [],
