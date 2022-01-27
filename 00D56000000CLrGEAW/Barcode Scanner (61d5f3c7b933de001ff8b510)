@@ -784,7 +784,7 @@
                         "component_id": "4977-f805-d897",
                         "attributes": {
                             "script_detail": "",
-                            "script": "$('#component-6726-af9b-65d1').find('.col-sm-3').each(function (i) {\n    var c = $(this).attr('class');\n    if(c !== undefined){\n        c = c.replace('col-sm-3','col-xs-3')\n        $(this).removeClass().addClass(c);\n    }\n});"
+                            "script": "$('#component-6726-af9b-65d1').find('.col-sm-3').each(function (i) {\n    $(this).removeClass('col-sm-3')\n});"
                         },
                         "required": false,
                         "components": [],
