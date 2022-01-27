@@ -729,7 +729,7 @@
                         "sfdc_query_limit": "100",
                         "sfdc_filter_fields": "",
                         "sfdc_query_visibility": "All Records",
-                        "sfdc_query_order_by": "",
+                        "sfdc_query_order_by": "Name",
                         "sfdc_query_search_group": "",
                         "object_label": "None Selected",
                         "object_api_name": "Product_v3__c",
