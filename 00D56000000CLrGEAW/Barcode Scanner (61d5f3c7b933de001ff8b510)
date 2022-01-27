@@ -379,7 +379,7 @@
                         "icon": "/scripts/formbuilder/img/paragraph.png",
                         "component_id": "38f5-500a-9b51",
                         "attributes": {
-                            "enable_reload_on_merge_field_change": "false",
+                            "enable_reload_on_merge_field_change": "true",
                             "html_detail": "<div style=\"height:1rem\"></div>",
                             "html_edit": "<div style=\"height:1rem\"></div>"
                         },
@@ -586,8 +586,25 @@
                         "component_id": "d023-0668-f509",
                         "attributes": {
                             "enable_reload_on_merge_field_change": "true",
-                            "html_detail": "<style>\n#salesforce_table_f26f-aa75-6d93_length label { display:block; float:right; }\n#salesforce_table_f26f-aa75-6d93_filter label { display:block; float: left;\n\n\n#salesforce_table_f26f-aa75-6d93_wrapper img { width:32px !important; height: 32px !important; }\n\n</style>",
-                            "html_edit": "<style>\n#salesforce_table_f26f-aa75-6d93_length label { display:block; float:right; }\n#salesforce_table_f26f-aa75-6d93_filter label { display:block; float: left; }\n\n#salesforce_table_f26f-aa75-6d93_wrapper img { width:32px !important; height: 32px !important; }\n\n</style>"
+                            "html_detail": "",
+                            "html_edit": "<style>\n/* Header */\nbody {\n  overflow-x: hidden;\n}\n#component_list {\n  margin-top:0 !important;\n}\n/* CSS */\n#component-d023-0668-f509 {\n  margin-bottom:0;\n}\n/* Separator, Header */\n#component-6766-c8f5-7696,\n#component-7ae7-8588-6828 {\n  margin-left:-50px;\n  margin-right:-50px;\n  background: #eee;\n  margin-bottom:0;\n\n}\n/* Header */\n#component-7ae7-8588-6828 {\n  padding-bottom:30px;\n    margin-bottom:4rem;\n    padding-top: 20px;\n}\n\n/* End Header */\n\n\n#salesforce_table_f26f-aa75-6d93_length label { display:block; float:right; }\n#salesforce_table_f26f-aa75-6d93_filter label { display:block; float: left; }\n\n#salesforce_table_f26f-aa75-6d93_wrapper img { width:32px !important; height: 32px !important; }\n\n</style>"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "Separator",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "6766-c8f5-7696",
+                        "attributes": {
+                            "enable_reload_on_merge_field_change": "false",
+                            "html_detail": "<div style=\"height:1rem\"></div>",
+                            "html_edit": "<div style=\"height:1rem\"></div>"
                         },
                         "required": false,
                         "components": [],
