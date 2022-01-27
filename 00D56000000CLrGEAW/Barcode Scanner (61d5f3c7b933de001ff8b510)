@@ -771,7 +771,7 @@
                         "component_id": "f33c-9938-26d1",
                         "attributes": {
                             "script_detail": "",
-                            "script": "$('#salesforce_table_f26f-aa75-6d93_length').text($('##salesforce_table_f26f-aa75-6d93_length').text().replace('entries',''));"
+                            "script": "$('#salesforce_table_f26f-aa75-6d93_length').text($('#salesforce_table_f26f-aa75-6d93_length').text().replace('entries',''));"
                         },
                         "required": false,
                         "components": [],
