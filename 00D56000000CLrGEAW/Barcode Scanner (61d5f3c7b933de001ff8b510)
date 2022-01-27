@@ -186,6 +186,23 @@
                         "type": "HTML",
                         "name": "HTML",
                         "category": "media",
+                        "label": "CSS",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "1323-1e20-89d2",
+                        "attributes": {
+                            "enable_reload_on_merge_field_change": "true",
+                            "html_detail": "<style>\nbody { border: 3px solid blue; }",
+                            "html_edit": "<style type=\"text/css\">\n#component_list {\n  margin-top:0 !important;\n  padding-top: 15px;\n}\n\n#component-94a1-6cd0-736c,\n#component-a369-7ec2-93fc {\n  margin-left:-50px;\n  margin-right:-50px;\n  background: #eee;\n}\n\n#component-a369-7ec2-93fc {\n  padding-bottom:30px;\n}\n\n\n\n.form-control-lg,\n.form-control.input-number,\n.form-control.input_content {\n    padding: 2rem;\n    font-size: 18px;\n    line-height: 1.5;\n}\n\n</style>"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
                         "label": "Separator",
                         "icon": "/scripts/formbuilder/img/paragraph.png",
                         "component_id": "94a1-6cd0-736c",
@@ -257,8 +274,7 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
                     },
                     {
                         "type": "Photo",
@@ -323,23 +339,6 @@
                             "action": "cancel"
                         },
                         "component_id": "bdac-51a5-97f7",
-                        "required": false,
-                        "components": [],
-                        "repeat_value": [],
-                        "controlling_elements": []
-                    },
-                    {
-                        "type": "HTML",
-                        "name": "HTML",
-                        "category": "media",
-                        "label": "CSS",
-                        "icon": "/scripts/formbuilder/img/paragraph.png",
-                        "component_id": "1323-1e20-89d2",
-                        "attributes": {
-                            "enable_reload_on_merge_field_change": "false",
-                            "html_detail": "<style type=\"text/css\">\n.form-control-lg,\n.form-control.input-number,\n.form-control.input_content {\n    padding: 2rem;\n    font-size: 18px;\n    line-height: 1.5;\n}\n\n</style>",
-                            "html_edit": "<style type=\"text/css\">\n.form-control-lg,\n.form-control.input-number,\n.form-control.input_content {\n    padding: 2rem;\n    font-size: 18px;\n    line-height: 1.5;\n}\n\n</style>"
-                        },
                         "required": false,
                         "components": [],
                         "repeat_value": [],
