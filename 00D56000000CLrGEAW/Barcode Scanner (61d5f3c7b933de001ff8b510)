@@ -775,7 +775,7 @@
             "enable_access_for_community_users": false,
             "enable_sfdc_storage": false,
             "is_navigation_hidden": true,
-            "is_header_hidden": true,
+            "is_header_hidden": false,
             "is_repeat": true,
             "language_locale_key": ""
         },
