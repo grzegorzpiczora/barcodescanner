@@ -725,7 +725,7 @@
                             "query_limit": "10",
                             "query_fields": ""
                         },
-                        "sfdc_query_fields": "Price__c,Name,Product_Image__c,Quantity__c",
+                        "sfdc_query_fields": "LastModifiedDate,Price__c,Name,Product_Image__c,Quantity__c",
                         "sfdc_query_limit": "100",
                         "sfdc_filter_fields": "",
                         "sfdc_query_visibility": "All Records",
