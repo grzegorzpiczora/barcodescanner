@@ -672,8 +672,8 @@
                             "add_new_record_button": false,
                             "table_submit_button_label": "",
                             "add_table_submit_button": true,
-                            "table_column_sort_index": "2",
-                            "table_column_sort_order": "asc",
+                            "table_column_sort_index": "",
+                            "table_column_sort_order": "desc",
                             "owner_field": "",
                             "sfdc_parent_component": "",
                             "sfdc_parent_field_name": "",
@@ -715,15 +715,6 @@
                                     "data_type": "currency",
                                     "column_label": "Price",
                                     "api_name": "Price__c"
-                                },
-                                {
-                                    "default_option": "",
-                                    "default_value": "",
-                                    "required": false,
-                                    "editable": false,
-                                    "data_type": "date",
-                                    "column_label": "Modified",
-                                    "api_name": "LastModifiedDate"
                                 }
                             ],
                             "table_page_length": "20",
@@ -738,7 +729,7 @@
                         "sfdc_query_limit": "100000",
                         "sfdc_filter_fields": "",
                         "sfdc_query_visibility": "All Records",
-                        "sfdc_query_order_by": "LastModifiedDate",
+                        "sfdc_query_order_by": "LastModifiedDate DESC",
                         "sfdc_query_search_group": "",
                         "object_label": "None Selected",
                         "object_api_name": "Product_v3__c",
