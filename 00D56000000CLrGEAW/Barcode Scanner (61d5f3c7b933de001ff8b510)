@@ -154,7 +154,7 @@
                         "type": "Navigation",
                         "name": "Navigation",
                         "category": "input",
-                        "label": "Cancel",
+                        "label": "Exit",
                         "icon": "/scripts/formbuilder/img/navigation.png",
                         "version": "2",
                         "attributes": {
