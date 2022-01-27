@@ -768,7 +768,7 @@
                         "attributes": {
                             "floating_position": "bottom_right",
                             "go_to_page": "1",
-                            "text_color": "#000000",
+                            "text_color": "#2b1e3e",
                             "button_border_color": "#eee9f4",
                             "button_color": "#eee9f4",
                             "button_type": "standard",
