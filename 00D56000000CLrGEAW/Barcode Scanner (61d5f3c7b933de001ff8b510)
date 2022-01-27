@@ -280,8 +280,7 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
                     },
                     {
                         "type": "Photo",
@@ -492,8 +491,7 @@
                         "required": false,
                         "components": [],
                         "repeat_value": [],
-                        "controlling_elements": [],
-                        "attributes": {}
+                        "controlling_elements": []
                     },
                     {
                         "type": "HTML",
@@ -721,71 +719,6 @@
                             "action": "cancel"
                         },
                         "component_id": "5041-970c-ee4b",
-                        "required": false,
-                        "components": [],
-                        "repeat_value": [],
-                        "controlling_elements": []
-                    }
-                ]
-            },
-            {
-                "page_id": "1dcb-f312-b6cf",
-                "title": "Page 4",
-                "page_index": 4,
-                "component_count": null,
-                "deployed": true,
-                "components": [
-                    {
-                        "type": "SalesforceGrid",
-                        "name": "",
-                        "category": "salesforce",
-                        "label": "Grid Records",
-                        "icon": "/scripts/formbuilder/img/salesforce.png",
-                        "version": "3",
-                        "attributes": {
-                            "go_to_page": "",
-                            "action": "",
-                            "record_min_height": "32",
-                            "owner_field": "",
-                            "column_width": "3",
-                            "sfdc_parent_component": "",
-                            "sfdc_parent_field_name": "",
-                            "custom_offline_lookup_filter": "",
-                            "offline_sync_filter": "",
-                            "custom_column_name": [],
-                            "table_page_length": "",
-                            "query_search_group": "",
-                            "query_order_by": "",
-                            "query_visibility": "",
-                            "filter_fields": "",
-                            "query_limit": "10",
-                            "query_fields": ""
-                        },
-                        "sfdc_query_fields": "Name,Product_Image__c,Quantity__c",
-                        "sfdc_query_limit": "100",
-                        "sfdc_filter_fields": "",
-                        "sfdc_query_visibility": "All Records",
-                        "sfdc_query_order_by": "",
-                        "sfdc_query_search_group": "",
-                        "object_label": "None Selected",
-                        "object_api_name": "Product_v3__c",
-                        "component_id": "6726-af9b-65d1",
-                        "required": false,
-                        "components": [],
-                        "repeat_value": [],
-                        "controlling_elements": []
-                    },
-                    {
-                        "type": "JavaScript",
-                        "name": "JavaScript",
-                        "category": "media",
-                        "label": "Custom JavaScript",
-                        "version": "2",
-                        "component_id": "4977-f805-d897",
-                        "attributes": {
-                            "script_detail": "",
-                            "script": "$('#component-6726-af9b-65d1').find('.col-sm-3').each(function (i) {\n    $(this).removeClass('col-sm-3')\n});"
-                        },
                         "required": false,
                         "components": [],
                         "repeat_value": [],
