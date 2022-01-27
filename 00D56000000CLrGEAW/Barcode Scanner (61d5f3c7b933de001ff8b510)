@@ -745,9 +745,9 @@
                         "attributes": {
                             "go_to_page": "",
                             "action": "",
-                            "record_min_height": "",
+                            "record_min_height": "64",
                             "owner_field": "",
-                            "column_width": "4",
+                            "column_width": "1",
                             "sfdc_parent_component": "",
                             "sfdc_parent_field_name": "",
                             "custom_offline_lookup_filter": "",
@@ -762,7 +762,7 @@
                             "query_fields": ""
                         },
                         "sfdc_query_fields": "Name,Product_Image__c,QR_Code__c,Quantity__c",
-                        "sfdc_query_limit": "10",
+                        "sfdc_query_limit": "100",
                         "sfdc_filter_fields": "",
                         "sfdc_query_visibility": "All Records",
                         "sfdc_query_order_by": "",
