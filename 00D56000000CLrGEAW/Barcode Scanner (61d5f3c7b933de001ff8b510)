@@ -92,8 +92,8 @@
                             "floating_position": "bottom_right",
                             "go_to_page": "2",
                             "text_color": "#ffffff",
-                            "button_border_color": "#5cb85c",
-                            "button_color": "#5cb85c",
+                            "button_border_color": "#d9534f",
+                            "button_color": "#d9534f",
                             "button_type": "standard",
                             "position": "Fill",
                             "action": "next"
