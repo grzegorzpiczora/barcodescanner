@@ -776,7 +776,7 @@
             "enable_sfdc_storage": false,
             "is_navigation_hidden": true,
             "is_header_hidden": true,
-            "is_repeat": false,
+            "is_repeat": true,
             "language_locale_key": ""
         },
         "current_page": 0,
