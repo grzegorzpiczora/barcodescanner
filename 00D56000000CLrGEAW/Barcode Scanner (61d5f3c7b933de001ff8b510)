@@ -761,6 +761,22 @@
                         "components": [],
                         "repeat_value": [],
                         "controlling_elements": []
+                    },
+                    {
+                        "type": "JavaScript",
+                        "name": "JavaScript",
+                        "category": "media",
+                        "label": "JavaScript",
+                        "version": "2",
+                        "component_id": "f33c-9938-26d1",
+                        "attributes": {
+                            "script_detail": "",
+                            "script": "$('#salesforce_table_f26f-aa75-6d93_length').html().replace('entries','');"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
                     }
                 ]
             }
