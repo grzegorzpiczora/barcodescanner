@@ -172,6 +172,22 @@
                         "components": [],
                         "repeat_value": [],
                         "controlling_elements": []
+                    },
+                    {
+                        "type": "JavaScript",
+                        "name": "JavaScript",
+                        "category": "media",
+                        "label": "JavaScript",
+                        "version": "2",
+                        "component_id": "f0b7-6b1a-52fc",
+                        "attributes": {
+                            "script_detail": "",
+                            "script": "$('.glyphicon-pencil').addClass('glyphicon-play-circle').removeClass('glyphicon-pencil');"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
                     }
                 ]
             },
