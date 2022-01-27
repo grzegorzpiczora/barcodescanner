@@ -460,7 +460,7 @@
                             "query_limit": "10",
                             "query_fields": ""
                         },
-                        "sfdc_query_fields": "CurrencyIsoCode,Name,Product_Image__c,Quantity__c,Id",
+                        "sfdc_query_fields": "Name,Product_Image__c,Id",
                         "sfdc_query_limit": "10",
                         "sfdc_filter_fields": "",
                         "sfdc_query_visibility": "All Records",
