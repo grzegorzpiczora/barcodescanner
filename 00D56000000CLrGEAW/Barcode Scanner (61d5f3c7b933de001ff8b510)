@@ -496,7 +496,7 @@
                         "type": "Number",
                         "name": "Number",
                         "category": "input",
-                        "label": "Availability",
+                        "label": "Stock",
                         "icon": "/scripts/formbuilder/img/number.png",
                         "component_id": "ca24-7c59-0e82",
                         "required": false,
