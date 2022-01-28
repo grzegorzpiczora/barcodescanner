@@ -479,7 +479,7 @@
                             "query_limit": "10",
                             "query_fields": ""
                         },
-                        "sfdc_query_fields": "Inventory__c,Name,Product_Image__c,Id",
+                        "sfdc_query_fields": "Formyoula__c,Name,Product_Image__c,Id",
                         "sfdc_query_limit": "10",
                         "sfdc_filter_fields": "",
                         "sfdc_query_visibility": "All Records",
