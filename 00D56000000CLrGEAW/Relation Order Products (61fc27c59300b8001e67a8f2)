@@ -61,7 +61,45 @@
                         "icon": "/scripts/formbuilder/img/repeat.png",
                         "component_id": "38c9-9257-f73d",
                         "required": false,
-                        "components": [],
+                        "components": [
+                            {
+                                "type": "Text",
+                                "name": "Text",
+                                "category": "input",
+                                "label": "Order Name",
+                                "icon": "/scripts/formbuilder/img/text.png",
+                                "component_id": "841c-beb4-9302",
+                                "attributes": {
+                                    "readonly": "no"
+                                },
+                                "required": false,
+                                "components": []
+                            },
+                            {
+                                "type": "Hidden",
+                                "value": "",
+                                "name": "Hidden",
+                                "category": "input",
+                                "label": "Record Id",
+                                "icon": "/scripts/formbuilder/img/hidden.png",
+                                "component_id": "668d-e678-7a83",
+                                "attributes": {},
+                                "required": false,
+                                "components": []
+                            },
+                            {
+                                "type": "Hidden",
+                                "value": "",
+                                "name": "Hidden",
+                                "category": "input",
+                                "label": "Parent Record Id",
+                                "icon": "/scripts/formbuilder/img/hidden.png",
+                                "component_id": "a6d1-2fb4-983a",
+                                "attributes": {},
+                                "required": false,
+                                "components": []
+                            }
+                        ],
                         "repeat_value": [],
                         "controlling_elements": [],
                         "attributes": {
@@ -69,7 +107,7 @@
                             "offline_sync_filter": "",
                             "all_expanded": false,
                             "max_repeat_items": "",
-                            "sfdc_parent_field_name": "CreatedById",
+                            "sfdc_parent_field_name": "Name",
                             "sfdc_parent_component": "1762-b621-f52f",
                             "list_view_fields": [
                                 ""
@@ -79,7 +117,7 @@
                             "add_title_label": "",
                             "add_button_label": ""
                         },
-                        "object_api_name": "Product_v3__c",
+                        "object_api_name": "Custom_Order__c",
                         "sfdc_filter_fields": "",
                         "sfdc_query_limit": "",
                         "sfdc_query_order_by": ""
