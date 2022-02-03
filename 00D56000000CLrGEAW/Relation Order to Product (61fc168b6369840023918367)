@@ -1,0 +1,72 @@
+{
+    "form": {
+        "created_by_id": "61d5c1cc743a58001fad3e92",
+        "owner_id": "61d5c1cc743a58001fad3e92",
+        "name": "Relation Order to Product",
+        "page_count": 1,
+        "current_page": 0,
+        "deployed": true,
+        "created_at": "2022-02-03T17:52:46.010Z",
+        "pages": [
+            {
+                "page_id": "1a47-3b93-c622",
+                "title": "Details",
+                "page_index": 1,
+                "component_count": null,
+                "deployed": true,
+                "components": [
+                    {
+                        "type": "Salesforce",
+                        "name": "",
+                        "category": "salesforce",
+                        "label": "Record Lookup",
+                        "icon": "/scripts/formbuilder/img/salesforce.png",
+                        "version": "3",
+                        "attributes": {
+                            "custom_offline_lookup_filter": "",
+                            "offline_sync_filter": "",
+                            "delete_value_button_label": "",
+                            "show_auto_search_results": false,
+                            "button": "Find",
+                            "enable_barcode_scanner": false,
+                            "position": "Fill",
+                            "auto_fill_id": "",
+                            "query_search_group": "",
+                            "query_order_by": "",
+                            "query_visibility": "",
+                            "filter_fields": "",
+                            "query_limit": "10",
+                            "query_fields": ""
+                        },
+                        "sfdc_query_fields": "",
+                        "sfdc_query_limit": "10",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_visibility": "All Records",
+                        "sfdc_query_order_by": "",
+                        "sfdc_query_search_group": "All Fields",
+                        "sfdc_auto_fill_id": "",
+                        "object_label": "None Selected",
+                        "object_api_name": "Order_Product_Relation__c",
+                        "component_id": "bd93-d45f-7a82",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    }
+                ]
+            }
+        ],
+        "connections": [],
+        "created_by": {
+            "last_name": "Piczura",
+            "first_name": "Grzegorz",
+            "id": "61d5c1cc743a58001fad3e92"
+        },
+        "access": "Private",
+        "public": false,
+        "list_view_fields": [],
+        "archived": false,
+        "attributes": {}
+    },
+    "connections": []
+}
