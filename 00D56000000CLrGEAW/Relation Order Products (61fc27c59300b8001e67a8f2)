@@ -64,7 +64,25 @@
                         "components": [],
                         "repeat_value": [],
                         "controlling_elements": [],
-                        "attributes": {}
+                        "attributes": {
+                            "custom_offline_lookup_filter": "",
+                            "offline_sync_filter": "",
+                            "all_expanded": false,
+                            "max_repeat_items": "",
+                            "sfdc_parent_field_name": "CreatedById",
+                            "sfdc_parent_component": "1762-b621-f52f",
+                            "list_view_fields": [
+                                ""
+                            ],
+                            "repeat_view_option": "list",
+                            "delete_button_label": "",
+                            "add_title_label": "",
+                            "add_button_label": ""
+                        },
+                        "object_api_name": "Product_v3__c",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_limit": "",
+                        "sfdc_query_order_by": ""
                     }
                 ]
             }
