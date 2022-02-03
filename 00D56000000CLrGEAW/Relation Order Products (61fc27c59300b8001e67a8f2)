@@ -65,7 +65,8 @@
         "access": "Private",
         "public": false,
         "list_view_fields": [],
-        "archived": false
+        "archived": false,
+        "attributes": {}
     },
     "connections": []
 }
