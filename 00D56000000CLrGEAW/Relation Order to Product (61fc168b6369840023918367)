@@ -52,6 +52,36 @@
                         "components": [],
                         "repeat_value": [],
                         "controlling_elements": []
+                    },
+                    {
+                        "type": "Repeat",
+                        "name": "Repeat Group",
+                        "category": "select",
+                        "label": "Product",
+                        "icon": "/scripts/formbuilder/img/repeat.png",
+                        "component_id": "2151-dac2-c12c",
+                        "attributes": {
+                            "custom_offline_lookup_filter": "",
+                            "offline_sync_filter": "",
+                            "all_expanded": false,
+                            "max_repeat_items": "",
+                            "sfdc_parent_component": "",
+                            "list_view_fields": [
+                                ""
+                            ],
+                            "repeat_view_option": "list",
+                            "delete_button_label": "",
+                            "add_title_label": "",
+                            "add_button_label": ""
+                        },
+                        "required": false,
+                        "object_api_name": "",
+                        "sfdc_query_limit": "",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_order_by": "",
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
                     }
                 ]
             }
