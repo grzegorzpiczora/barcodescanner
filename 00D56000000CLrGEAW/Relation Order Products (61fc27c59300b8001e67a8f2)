@@ -125,7 +125,9 @@
                 ]
             }
         ],
-        "connections": [],
+        "connections": [
+            "Salesforce"
+        ],
         "created_by": {
             "last_name": "Piczura",
             "first_name": "Grzegorz",
@@ -134,8 +136,58 @@
         "access": "Private",
         "public": false,
         "list_view_fields": [],
-        "archived": false,
+        "archived": true,
         "attributes": {}
     },
-    "connections": []
+    "connections": [
+        {
+            "_id": "61fc2d4e4d47cd001db22869",
+            "created_at": "2022-02-03T19:30:22.510Z",
+            "updated_at": "2022-02-03T19:34:35.104Z",
+            "template_id": "61fc27c59300b8001e67a8f2",
+            "created_by_id": "61d5c1cc743a58001fad3e92",
+            "owner_id": "61d5c1cc743a58001fad3e92",
+            "sequence": 1,
+            "type": "Salesforce",
+            "emails": [],
+            "mappings": [
+                {
+                    "field_id": "Name",
+                    "field_name": "Custom Order Name ( Name )",
+                    "component_id": "841c-beb4-9302",
+                    "component_name": "Order Name ( Page: Details | Repeat: Repeat Group )"
+                },
+                {
+                    "field_id": "Id",
+                    "field_name": "Existing Record ID (Only For Updates)",
+                    "component_id": "668d-e678-7a83",
+                    "component_name": "Record Id ( Page: Details | Repeat: Repeat Group )"
+                }
+            ],
+            "public_form": {
+                "allow_only_one_public_form_submission": false,
+                "disable_formyoula_branding": false
+            },
+            "salesforce": {
+                "disable_salesforce_record_update": false,
+                "enable_do_not_send_controlled_fields": false,
+                "skip_upsert_record_updates": false,
+                "enable_blank_values": false,
+                "use_form_owner": false,
+                "object_id": "Custom_Order__c",
+                "object_name": "Custom Order",
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "38c9-9257-f73d",
+                "skip_field": "",
+                "skip_field_false": "",
+                "update_field": ""
+            },
+            "is_disabled": false,
+            "version": 1,
+            "__v": 2,
+            "push_updates": false,
+            "description": ""
+        }
+    ]
 }
