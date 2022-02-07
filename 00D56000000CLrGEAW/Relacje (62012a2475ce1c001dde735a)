@@ -44,7 +44,7 @@
                         "sfdc_query_visibility": "All Records",
                         "sfdc_query_order_by": "",
                         "sfdc_query_search_group": "All Fields",
-                        "sfdc_auto_fill_id": "",
+                        "sfdc_auto_fill_id": "6201772b40eba1001e52fbaf",
                         "object_label": "None Selected",
                         "object_api_name": "Custom_Order__c",
                         "component_id": "941e-3211-f148",
