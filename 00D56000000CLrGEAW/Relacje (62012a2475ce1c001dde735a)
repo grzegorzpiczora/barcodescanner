@@ -54,39 +54,60 @@
                         "controlling_elements": []
                     },
                     {
-                        "type": "SalesforceSelect",
-                        "name": "",
-                        "category": "salesforce",
-                        "label": "Select Record",
-                        "icon": "/scripts/formbuilder/img/salesforce.png",
-                        "version": "4",
+                        "type": "Repeat",
+                        "name": "Repeat Group",
+                        "category": "select",
+                        "label": "Repeat Group",
+                        "icon": "/scripts/formbuilder/img/repeat.png",
+                        "component_id": "5833-68b3-7402",
                         "attributes": {
                             "custom_offline_lookup_filter": "",
                             "offline_sync_filter": "",
-                            "delete_value_button_label": "",
-                            "owner_field": "",
-                            "button": "Select",
-                            "position": "Fill",
-                            "auto_fill_id": "",
-                            "query_search_group": "",
-                            "query_order_by": "",
-                            "query_visibility": "",
-                            "filter_fields": "",
-                            "query_limit": "10",
-                            "query_fields": ""
+                            "all_expanded": false,
+                            "max_repeat_items": "",
+                            "sfdc_parent_field_name": "AccountId",
+                            "sfdc_parent_component": "f3d0-66a1-b9d8",
+                            "list_view_fields": [
+                                ""
+                            ],
+                            "repeat_view_option": "list",
+                            "delete_button_label": "",
+                            "add_title_label": "",
+                            "add_button_label": ""
                         },
-                        "sfdc_query_fields": "AccountId,FirstName,LastName",
-                        "sfdc_query_limit": "10",
-                        "sfdc_filter_fields": "AccountId='{{f3d0-66a1-b9d8}}'",
-                        "sfdc_query_visibility": "All Records",
-                        "sfdc_query_order_by": "",
-                        "sfdc_query_search_group": "",
-                        "sfdc_auto_fill_id": "",
-                        "object_label": "None Selected",
-                        "object_api_name": "Contact",
-                        "component_id": "14ce-511f-a2d7",
                         "required": false,
-                        "components": [],
+                        "object_api_name": "Contact",
+                        "sfdc_query_limit": "",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_order_by": "",
+                        "components": [
+                            {
+                                "components": [],
+                                "required": false,
+                                "attributes": {
+                                    "readonly": "no"
+                                },
+                                "component_id": "b109-d860-d828",
+                                "icon": "/scripts/formbuilder/img/text.png",
+                                "label": "First Name",
+                                "category": "input",
+                                "name": "Text",
+                                "type": "Text"
+                            },
+                            {
+                                "components": [],
+                                "required": false,
+                                "attributes": {
+                                    "readonly": "no"
+                                },
+                                "component_id": "76f6-d6cd-cf90",
+                                "icon": "/scripts/formbuilder/img/text.png",
+                                "label": "Last Name",
+                                "category": "input",
+                                "name": "Text",
+                                "type": "Text"
+                            }
+                        ],
                         "repeat_value": [],
                         "controlling_elements": []
                     }
