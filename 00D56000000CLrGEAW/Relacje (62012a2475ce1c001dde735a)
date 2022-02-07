@@ -53,46 +53,33 @@
                         "controlling_elements": []
                     },
                     {
-                        "type": "Repeat",
-                        "name": "Repeat Group",
-                        "category": "select",
-                        "label": "Repeat Group",
-                        "icon": "/scripts/formbuilder/img/repeat.png",
-                        "component_id": "7e30-163d-62a0",
+                        "type": "SalesforceSelectList",
+                        "name": "",
+                        "category": "salesforce",
+                        "label": "Select Record",
+                        "icon": "/scripts/formbuilder/img/salesforce.png",
+                        "version": "2",
                         "attributes": {
-                            "custom_offline_lookup_filter": "",
-                            "offline_sync_filter": "",
-                            "all_expanded": false,
-                            "max_repeat_items": "",
-                            "sfdc_parent_component": "",
-                            "list_view_fields": [
-                                ""
-                            ],
-                            "repeat_view_option": "list",
-                            "delete_button_label": "",
-                            "add_title_label": "",
-                            "add_button_label": ""
+                            "auto_fill_id": "",
+                            "query_search_group": "",
+                            "query_order_by": "",
+                            "query_visibility": "",
+                            "filter_fields": "",
+                            "query_limit": "10",
+                            "query_fields": ""
                         },
-                        "required": false,
-                        "object_api_name": "",
-                        "sfdc_query_limit": "",
+                        "sfdc_query_fields": "",
+                        "sfdc_query_limit": "10",
                         "sfdc_filter_fields": "",
+                        "sfdc_query_visibility": "",
                         "sfdc_query_order_by": "",
-                        "components": [
-                            {
-                                "components": [],
-                                "required": false,
-                                "attributes": {
-                                    "readonly": "no"
-                                },
-                                "component_id": "f656-729f-023d",
-                                "icon": "/scripts/formbuilder/img/text.png",
-                                "label": "Text Field",
-                                "category": "input",
-                                "name": "Text",
-                                "type": "Text"
-                            }
-                        ],
+                        "sfdc_query_search_group": "",
+                        "sfdc_auto_fill_id": "",
+                        "object_label": "None Selected",
+                        "object_api_name": "None Selected",
+                        "component_id": "cc1f-1d56-e48b",
+                        "required": false,
+                        "components": [],
                         "repeat_value": [],
                         "controlling_elements": []
                     }
