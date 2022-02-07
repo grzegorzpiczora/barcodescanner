@@ -63,9 +63,9 @@
                         "attributes": {
                             "custom_offline_lookup_filter": "",
                             "offline_sync_filter": "",
-                            "all_expanded": false,
+                            "all_expanded": true,
                             "max_repeat_items": "",
-                            "sfdc_parent_field_name": "CreatedById",
+                            "sfdc_parent_field_name": "Id",
                             "sfdc_parent_component": "7a30-a064-aba3",
                             "list_view_fields": [
                                 ""
