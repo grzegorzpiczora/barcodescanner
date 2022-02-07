@@ -63,7 +63,7 @@
                         "attributes": {
                             "custom_offline_lookup_filter": "",
                             "offline_sync_filter": "",
-                            "all_expanded": false,
+                            "all_expanded": true,
                             "max_repeat_items": "",
                             "sfdc_parent_field_name": "AccountId",
                             "sfdc_parent_component": "ac5c-bc74-b737",
@@ -109,13 +109,13 @@
                             }
                         ],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "sfdc_auto_fill_id": "62013f4605b6f8001d67a1aa"
                     }
                 ]
             }
         ],
         "connections": [
-            "Salesforce",
             "Salesforce"
         ],
         "created_by": {
@@ -131,51 +131,27 @@
     },
     "connections": [
         {
-            "_id": "62012b599012a80020004538",
-            "created_at": "2022-02-07T14:23:21.462Z",
-            "updated_at": "2022-02-07T15:28:32.836Z",
+            "_id": "62013f4605b6f8001d67a1aa",
+            "created_at": "2022-02-07T15:48:22.733Z",
+            "updated_at": "2022-02-07T15:49:17.269Z",
             "template_id": "62012a2475ce1c001dde735a",
             "created_by_id": "61d5c1cc743a58001fad3e92",
             "owner_id": "61d5c1cc743a58001fad3e92",
-            "sequence": 1,
-            "type": "Salesforce",
-            "emails": [],
-            "mappings": [],
-            "public_form": {
-                "allow_only_one_public_form_submission": false,
-                "disable_formyoula_branding": false
-            },
-            "salesforce": {
-                "disable_salesforce_record_update": false,
-                "enable_do_not_send_controlled_fields": false,
-                "skip_upsert_record_updates": false,
-                "enable_blank_values": false,
-                "use_form_owner": false,
-                "object_id": "Custom_Order__c",
-                "object_name": "Custom Order",
-                "upsert_field": ""
-            },
-            "is_disabled": false,
-            "version": 1,
-            "__v": 8,
-            "push_updates": false
-        },
-        {
-            "_id": "62013b26168896001ede068e",
-            "created_at": "2022-02-07T15:30:46.660Z",
-            "updated_at": "2022-02-07T15:34:06.759Z",
-            "template_id": "62012a2475ce1c001dde735a",
-            "created_by_id": "61d5c1cc743a58001fad3e92",
-            "owner_id": "61d5c1cc743a58001fad3e92",
-            "sequence": 2,
+            "sequence": 3,
             "type": "Salesforce",
             "emails": [],
             "mappings": [
                 {
-                    "field_id": "Name",
-                    "field_name": "Product 3 Name ( Name )",
-                    "component_id": "35de-8065-36fa",
-                    "component_name": "Product Name ( Page: Details | Repeat: Custom Products )"
+                    "field_id": "FirstName",
+                    "field_name": "First Name ( FirstName )",
+                    "component_id": "1095-da0b-99d7",
+                    "component_name": "First Name ( Page: Details | Repeat: Repeat Group )"
+                },
+                {
+                    "field_id": "LastName",
+                    "field_name": "Last Name ( LastName )",
+                    "component_id": "e3d2-0e53-2bd1",
+                    "component_name": "Last Name ( Page: Details | Repeat: Repeat Group )"
                 }
             ],
             "public_form": {
@@ -188,18 +164,18 @@
                 "skip_upsert_record_updates": false,
                 "enable_blank_values": false,
                 "use_form_owner": false,
-                "object_id": "Product_v3__c",
-                "object_name": "Product v3",
+                "object_id": "Contact",
+                "object_name": "Contact",
                 "upsert_field": "",
                 "attachment": "",
-                "repeat_group": "9808-9d46-b1da",
+                "repeat_group": "7a8a-cd16-c28f",
                 "skip_field": "",
                 "skip_field_false": "",
-                "update_field": "7a30-a064-aba3"
+                "update_field": ""
             },
             "is_disabled": false,
             "version": 1,
-            "__v": 1,
+            "__v": 2,
             "push_updates": false,
             "description": ""
         }
