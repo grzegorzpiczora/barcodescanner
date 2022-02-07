@@ -14,12 +14,86 @@
                 "page_index": 1,
                 "component_count": null,
                 "deployed": true,
-                "components": []
+                "components": [
+                    {
+                        "type": "Salesforce",
+                        "name": "",
+                        "category": "salesforce",
+                        "label": "Record Lookup",
+                        "icon": "/scripts/formbuilder/img/salesforce.png",
+                        "version": "3",
+                        "attributes": {
+                            "custom_offline_lookup_filter": "",
+                            "offline_sync_filter": "",
+                            "delete_value_button_label": "",
+                            "show_auto_search_results": false,
+                            "button": "Find",
+                            "enable_barcode_scanner": false,
+                            "position": "Fill",
+                            "auto_fill_id": "",
+                            "query_search_group": "",
+                            "query_order_by": "",
+                            "query_visibility": "",
+                            "filter_fields": "",
+                            "query_limit": "10",
+                            "query_fields": ""
+                        },
+                        "sfdc_query_fields": "",
+                        "sfdc_query_limit": "10",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_visibility": "All Records",
+                        "sfdc_query_order_by": "",
+                        "sfdc_query_search_group": "All Fields",
+                        "sfdc_auto_fill_id": "",
+                        "object_label": "None Selected",
+                        "object_api_name": "Order_Product_Relation__c",
+                        "component_id": "cfda-17a0-3018",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "SalesforceSelect",
+                        "name": "",
+                        "category": "salesforce",
+                        "label": "Select Record",
+                        "icon": "/scripts/formbuilder/img/salesforce.png",
+                        "version": "4",
+                        "attributes": {
+                            "custom_offline_lookup_filter": "",
+                            "offline_sync_filter": "",
+                            "delete_value_button_label": "",
+                            "owner_field": "",
+                            "button": "Select",
+                            "position": "Fill",
+                            "auto_fill_id": "",
+                            "query_search_group": "",
+                            "query_order_by": "",
+                            "query_visibility": "",
+                            "filter_fields": "",
+                            "query_limit": "10",
+                            "query_fields": ""
+                        },
+                        "sfdc_query_fields": "Id",
+                        "sfdc_query_limit": "10",
+                        "sfdc_filter_fields": "Order_Product_Relation_Id=Record_Id",
+                        "sfdc_query_visibility": "All Records",
+                        "sfdc_query_order_by": "",
+                        "sfdc_query_search_group": "",
+                        "sfdc_auto_fill_id": "",
+                        "object_label": "None Selected",
+                        "object_api_name": "Custom_Order__c",
+                        "component_id": "d288-ea65-08e6",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    }
+                ]
             }
         ],
-        "connections": [
-            "Salesforce"
-        ],
+        "connections": [],
         "created_by": {
             "last_name": "Piczura",
             "first_name": "Grzegorz",
@@ -31,55 +105,5 @@
         "archived": false,
         "attributes": {}
     },
-    "connections": [
-        {
-            "_id": "62013f4605b6f8001d67a1aa",
-            "created_at": "2022-02-07T15:48:22.733Z",
-            "updated_at": "2022-02-07T16:01:59.808Z",
-            "template_id": "62012a2475ce1c001dde735a",
-            "created_by_id": "61d5c1cc743a58001fad3e92",
-            "owner_id": "61d5c1cc743a58001fad3e92",
-            "sequence": 1,
-            "type": "Salesforce",
-            "emails": [],
-            "mappings": [
-                {
-                    "field_id": "FirstName",
-                    "field_name": "First Name ( FirstName )",
-                    "component_id": "1095-da0b-99d7",
-                    "component_name": "First Name ( Page: Details | Repeat: Repeat Group )"
-                },
-                {
-                    "field_id": "LastName",
-                    "field_name": "Last Name ( LastName )",
-                    "component_id": "e3d2-0e53-2bd1",
-                    "component_name": "Last Name ( Page: Details | Repeat: Repeat Group )"
-                }
-            ],
-            "public_form": {
-                "allow_only_one_public_form_submission": false,
-                "disable_formyoula_branding": false
-            },
-            "salesforce": {
-                "disable_salesforce_record_update": false,
-                "enable_do_not_send_controlled_fields": false,
-                "skip_upsert_record_updates": false,
-                "enable_blank_values": false,
-                "use_form_owner": false,
-                "object_id": "Contact",
-                "object_name": "Contact",
-                "upsert_field": "",
-                "attachment": "",
-                "repeat_group": "7a8a-cd16-c28f",
-                "skip_field": "",
-                "skip_field_false": "",
-                "update_field": ""
-            },
-            "is_disabled": false,
-            "version": 1,
-            "__v": 2,
-            "push_updates": true,
-            "description": ""
-        }
-    ]
+    "connections": []
 }
