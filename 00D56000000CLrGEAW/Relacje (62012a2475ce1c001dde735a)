@@ -117,7 +117,21 @@
                         "sfdc_query_limit": "",
                         "sfdc_filter_fields": "",
                         "sfdc_query_order_by": "",
-                        "components": [],
+                        "components": [
+                            {
+                                "type": "Text",
+                                "name": "Text",
+                                "category": "input",
+                                "label": "Product Name",
+                                "icon": "/scripts/formbuilder/img/text.png",
+                                "component_id": "9dca-64d8-786f",
+                                "attributes": {
+                                    "readonly": "no"
+                                },
+                                "required": false,
+                                "components": []
+                            }
+                        ],
                         "repeat_value": [],
                         "controlling_elements": []
                     }
@@ -142,7 +156,7 @@
         {
             "_id": "6201772b40eba1001e52fbaf",
             "created_at": "2022-02-07T19:46:51.438Z",
-            "updated_at": "2022-02-07T19:46:51.438Z",
+            "updated_at": "2022-02-07T19:49:09.667Z",
             "template_id": "62012a2475ce1c001dde735a",
             "created_by_id": "61d5c1cc743a58001fad3e92",
             "owner_id": "61d5c1cc743a58001fad3e92",
@@ -159,11 +173,15 @@
                 "enable_do_not_send_controlled_fields": false,
                 "skip_upsert_record_updates": false,
                 "enable_blank_values": false,
-                "use_form_owner": false
+                "use_form_owner": false,
+                "object_id": "Product_v3__c",
+                "object_name": "Product v3",
+                "upsert_field": ""
             },
             "is_disabled": false,
             "version": 1,
-            "__v": 0
+            "__v": 0,
+            "push_updates": false
         }
     ]
 }
