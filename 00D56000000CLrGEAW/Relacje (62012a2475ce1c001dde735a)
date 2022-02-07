@@ -59,13 +59,13 @@
                         "category": "select",
                         "label": "Repeat Group",
                         "icon": "/scripts/formbuilder/img/repeat.png",
-                        "component_id": "db14-ad1b-3362",
+                        "component_id": "79a6-0371-9d76",
                         "attributes": {
                             "custom_offline_lookup_filter": "",
                             "offline_sync_filter": "",
-                            "all_expanded": false,
+                            "all_expanded": true,
                             "max_repeat_items": "",
-                            "sfdc_parent_field_name": "Name",
+                            "sfdc_parent_field_name": "CreatedById",
                             "sfdc_parent_component": "0a6b-cab6-cd8e",
                             "list_view_fields": [
                                 ""
@@ -80,7 +80,21 @@
                         "sfdc_query_limit": "",
                         "sfdc_filter_fields": "",
                         "sfdc_query_order_by": "",
-                        "components": [],
+                        "components": [
+                            {
+                                "components": [],
+                                "required": false,
+                                "attributes": {
+                                    "readonly": "no"
+                                },
+                                "component_id": "46aa-9727-1dd1",
+                                "icon": "/scripts/formbuilder/img/text.png",
+                                "label": "Custom order Name",
+                                "category": "input",
+                                "name": "Text",
+                                "type": "Text"
+                            }
+                        ],
                         "repeat_value": [],
                         "controlling_elements": []
                     }
@@ -105,14 +119,21 @@
         {
             "_id": "62012b599012a80020004538",
             "created_at": "2022-02-07T14:23:21.462Z",
-            "updated_at": "2022-02-07T14:39:32.608Z",
+            "updated_at": "2022-02-07T14:59:28.843Z",
             "template_id": "62012a2475ce1c001dde735a",
             "created_by_id": "61d5c1cc743a58001fad3e92",
             "owner_id": "61d5c1cc743a58001fad3e92",
             "sequence": 1,
             "type": "Salesforce",
             "emails": [],
-            "mappings": [],
+            "mappings": [
+                {
+                    "field_id": "Custom_Order__c",
+                    "field_name": "Custom Order ( Custom_Order__c )",
+                    "component_id": "0a6b-cab6-cd8e",
+                    "component_name": "Record Lookup ( Page: Details )"
+                }
+            ],
             "public_form": {
                 "allow_only_one_public_form_submission": false,
                 "disable_formyoula_branding": false
@@ -129,7 +150,7 @@
             },
             "is_disabled": false,
             "version": 1,
-            "__v": 0,
+            "__v": 1,
             "push_updates": false
         }
     ]
