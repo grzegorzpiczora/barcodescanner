@@ -52,6 +52,64 @@
                         "components": [],
                         "repeat_value": [],
                         "controlling_elements": []
+                    },
+                    {
+                        "type": "Repeat",
+                        "name": "Repeat Group",
+                        "category": "select",
+                        "label": "Repeat Group",
+                        "icon": "/scripts/formbuilder/img/repeat.png",
+                        "component_id": "7a8a-cd16-c28f",
+                        "attributes": {
+                            "custom_offline_lookup_filter": "",
+                            "offline_sync_filter": "",
+                            "all_expanded": false,
+                            "max_repeat_items": "",
+                            "sfdc_parent_field_name": "AccountId",
+                            "sfdc_parent_component": "ac5c-bc74-b737",
+                            "list_view_fields": [
+                                ""
+                            ],
+                            "repeat_view_option": "list",
+                            "delete_button_label": "",
+                            "add_title_label": "",
+                            "add_button_label": ""
+                        },
+                        "required": false,
+                        "object_api_name": "Contact",
+                        "sfdc_query_limit": "",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_order_by": "",
+                        "components": [
+                            {
+                                "components": [],
+                                "required": false,
+                                "attributes": {
+                                    "readonly": "no"
+                                },
+                                "component_id": "1095-da0b-99d7",
+                                "icon": "/scripts/formbuilder/img/text.png",
+                                "label": "First Name",
+                                "category": "input",
+                                "name": "Text",
+                                "type": "Text"
+                            },
+                            {
+                                "components": [],
+                                "required": false,
+                                "attributes": {
+                                    "readonly": "no"
+                                },
+                                "component_id": "e3d2-0e53-2bd1",
+                                "icon": "/scripts/formbuilder/img/text.png",
+                                "label": "Last Name",
+                                "category": "input",
+                                "name": "Text",
+                                "type": "Text"
+                            }
+                        ],
+                        "repeat_value": [],
+                        "controlling_elements": []
                     }
                 ]
             }
