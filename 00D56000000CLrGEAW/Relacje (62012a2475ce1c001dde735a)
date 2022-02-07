@@ -96,7 +96,8 @@
                             }
                         ],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "sfdc_auto_fill_id": "62013b26168896001ede068e"
                     }
                 ]
             }
@@ -150,14 +151,21 @@
         {
             "_id": "62013b26168896001ede068e",
             "created_at": "2022-02-07T15:30:46.660Z",
-            "updated_at": "2022-02-07T15:30:57.351Z",
+            "updated_at": "2022-02-07T15:34:06.759Z",
             "template_id": "62012a2475ce1c001dde735a",
             "created_by_id": "61d5c1cc743a58001fad3e92",
             "owner_id": "61d5c1cc743a58001fad3e92",
             "sequence": 2,
             "type": "Salesforce",
             "emails": [],
-            "mappings": [],
+            "mappings": [
+                {
+                    "field_id": "Name",
+                    "field_name": "Product 3 Name ( Name )",
+                    "component_id": "35de-8065-36fa",
+                    "component_name": "Product Name ( Page: Details | Repeat: Custom Products )"
+                }
+            ],
             "public_form": {
                 "allow_only_one_public_form_submission": false,
                 "disable_formyoula_branding": false
@@ -168,14 +176,20 @@
                 "skip_upsert_record_updates": false,
                 "enable_blank_values": false,
                 "use_form_owner": false,
-                "object_id": "Product_v3__Share",
-                "object_name": "Share: Product v3",
-                "upsert_field": ""
+                "object_id": "Product_v3__c",
+                "object_name": "Product v3",
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "9808-9d46-b1da",
+                "skip_field": "",
+                "skip_field_false": "",
+                "update_field": "7a30-a064-aba3"
             },
             "is_disabled": false,
             "version": 1,
-            "__v": 0,
-            "push_updates": false
+            "__v": 1,
+            "push_updates": false,
+            "description": ""
         }
     ]
 }
