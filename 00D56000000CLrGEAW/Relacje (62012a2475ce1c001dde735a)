@@ -14,91 +14,7 @@
                 "page_index": 1,
                 "component_count": null,
                 "deployed": true,
-                "components": [
-                    {
-                        "type": "Salesforce",
-                        "name": "",
-                        "category": "salesforce",
-                        "label": "Record Lookup",
-                        "icon": "/scripts/formbuilder/img/salesforce.png",
-                        "version": "3",
-                        "attributes": {
-                            "custom_offline_lookup_filter": "",
-                            "offline_sync_filter": "",
-                            "delete_value_button_label": "",
-                            "show_auto_search_results": false,
-                            "button": "Find",
-                            "enable_barcode_scanner": false,
-                            "position": "Fill",
-                            "auto_fill_id": "",
-                            "query_search_group": "",
-                            "query_order_by": "",
-                            "query_visibility": "",
-                            "filter_fields": "",
-                            "query_limit": "10",
-                            "query_fields": ""
-                        },
-                        "sfdc_query_fields": "Custom_Order__c",
-                        "sfdc_query_limit": "10",
-                        "sfdc_filter_fields": "",
-                        "sfdc_query_visibility": "All Records",
-                        "sfdc_query_order_by": "",
-                        "sfdc_query_search_group": "All Fields",
-                        "sfdc_auto_fill_id": "62012b599012a80020004538",
-                        "object_label": "None Selected",
-                        "object_api_name": "Order_Product_Relation__c",
-                        "component_id": "0a6b-cab6-cd8e",
-                        "required": false,
-                        "components": [],
-                        "repeat_value": [],
-                        "controlling_elements": []
-                    },
-                    {
-                        "type": "Repeat",
-                        "name": "Repeat Group",
-                        "category": "select",
-                        "label": "Repeat Group",
-                        "icon": "/scripts/formbuilder/img/repeat.png",
-                        "component_id": "79a6-0371-9d76",
-                        "attributes": {
-                            "custom_offline_lookup_filter": "",
-                            "offline_sync_filter": "",
-                            "all_expanded": true,
-                            "max_repeat_items": "",
-                            "sfdc_parent_field_name": "CreatedById",
-                            "sfdc_parent_component": "0a6b-cab6-cd8e",
-                            "list_view_fields": [
-                                ""
-                            ],
-                            "repeat_view_option": "list",
-                            "delete_button_label": "",
-                            "add_title_label": "",
-                            "add_button_label": ""
-                        },
-                        "required": false,
-                        "object_api_name": "Custom_Order__c",
-                        "sfdc_query_limit": "",
-                        "sfdc_filter_fields": "",
-                        "sfdc_query_order_by": "",
-                        "components": [
-                            {
-                                "components": [],
-                                "required": false,
-                                "attributes": {
-                                    "readonly": "no"
-                                },
-                                "component_id": "46aa-9727-1dd1",
-                                "icon": "/scripts/formbuilder/img/text.png",
-                                "label": "Custom order Name",
-                                "category": "input",
-                                "name": "Text",
-                                "type": "Text"
-                            }
-                        ],
-                        "repeat_value": [],
-                        "controlling_elements": []
-                    }
-                ]
+                "components": []
             }
         ],
         "connections": [
@@ -119,7 +35,7 @@
         {
             "_id": "62012b599012a80020004538",
             "created_at": "2022-02-07T14:23:21.462Z",
-            "updated_at": "2022-02-07T14:59:28.843Z",
+            "updated_at": "2022-02-07T15:11:07.085Z",
             "template_id": "62012a2475ce1c001dde735a",
             "created_by_id": "61d5c1cc743a58001fad3e92",
             "owner_id": "61d5c1cc743a58001fad3e92",
@@ -130,8 +46,8 @@
                 {
                     "field_id": "Custom_Order__c",
                     "field_name": "Custom Order ( Custom_Order__c )",
-                    "component_id": "0a6b-cab6-cd8e",
-                    "component_name": "Record Lookup ( Page: Details )"
+                    "component_id": "46aa-9727-1dd1",
+                    "component_name": "Custom order Name ( Page: Details | Repeat: Repeat Group )"
                 }
             ],
             "public_form": {
@@ -146,12 +62,18 @@
                 "use_form_owner": false,
                 "object_id": "Order_Product_Relation__c",
                 "object_name": "Order Product Relation",
-                "upsert_field": ""
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "79a6-0371-9d76",
+                "skip_field": "",
+                "skip_field_false": "",
+                "update_field": ""
             },
             "is_disabled": false,
             "version": 1,
-            "__v": 1,
-            "push_updates": false
+            "__v": 3,
+            "push_updates": false,
+            "description": ""
         }
     ]
 }
