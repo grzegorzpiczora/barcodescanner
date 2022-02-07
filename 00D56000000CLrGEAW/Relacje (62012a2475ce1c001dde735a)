@@ -16,6 +16,44 @@
                 "deployed": true,
                 "components": [
                     {
+                        "type": "Salesforce",
+                        "name": "",
+                        "category": "salesforce",
+                        "label": "Account Lookup",
+                        "icon": "/scripts/formbuilder/img/salesforce.png",
+                        "version": "3",
+                        "attributes": {
+                            "custom_offline_lookup_filter": "",
+                            "offline_sync_filter": "",
+                            "delete_value_button_label": "",
+                            "show_auto_search_results": false,
+                            "button": "Find",
+                            "enable_barcode_scanner": false,
+                            "position": "Fill",
+                            "auto_fill_id": "",
+                            "query_search_group": "",
+                            "query_order_by": "",
+                            "query_visibility": "",
+                            "filter_fields": "",
+                            "query_limit": "10",
+                            "query_fields": ""
+                        },
+                        "sfdc_query_fields": "",
+                        "sfdc_query_limit": "10",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_visibility": "All Records",
+                        "sfdc_query_order_by": "",
+                        "sfdc_query_search_group": "All Fields",
+                        "sfdc_auto_fill_id": "",
+                        "object_label": "None Selected",
+                        "object_api_name": "Account",
+                        "component_id": "f3d0-66a1-b9d8",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
                         "type": "SalesforceSelect",
                         "name": "",
                         "category": "salesforce",
@@ -37,47 +75,16 @@
                             "query_limit": "10",
                             "query_fields": ""
                         },
-                        "sfdc_query_fields": "Id",
+                        "sfdc_query_fields": "AccountId,FirstName,LastName",
                         "sfdc_query_limit": "10",
-                        "sfdc_filter_fields": "",
+                        "sfdc_filter_fields": "AccountId='{{f3d0-66a1-b9d8}}'",
                         "sfdc_query_visibility": "All Records",
-                        "sfdc_query_order_by": "",
-                        "sfdc_query_search_group": "",
-                        "sfdc_auto_fill_id": "6201772b40eba1001e52fbaf",
-                        "object_label": "None Selected",
-                        "object_api_name": "Custom_Order__c",
-                        "component_id": "8a17-387f-0ce2",
-                        "required": false,
-                        "components": [],
-                        "repeat_value": [],
-                        "controlling_elements": []
-                    },
-                    {
-                        "type": "SalesforceSelectList",
-                        "name": "",
-                        "category": "salesforce",
-                        "label": "Select Record",
-                        "icon": "/scripts/formbuilder/img/salesforce.png",
-                        "version": "2",
-                        "attributes": {
-                            "auto_fill_id": "",
-                            "query_search_group": "",
-                            "query_order_by": "",
-                            "query_visibility": "",
-                            "filter_fields": "",
-                            "query_limit": "10",
-                            "query_fields": ""
-                        },
-                        "sfdc_query_fields": "",
-                        "sfdc_query_limit": "10",
-                        "sfdc_filter_fields": "",
-                        "sfdc_query_visibility": "",
                         "sfdc_query_order_by": "",
                         "sfdc_query_search_group": "",
                         "sfdc_auto_fill_id": "",
                         "object_label": "None Selected",
-                        "object_api_name": "None Selected",
-                        "component_id": "cc1f-1d56-e48b",
+                        "object_api_name": "Contact",
+                        "component_id": "14ce-511f-a2d7",
                         "required": false,
                         "components": [],
                         "repeat_value": [],
@@ -86,10 +93,7 @@
                 ]
             }
         ],
-        "connections": [
-            "Salesforce",
-            "Salesforce"
-        ],
+        "connections": [],
         "created_by": {
             "last_name": "Piczura",
             "first_name": "Grzegorz",
@@ -101,79 +105,5 @@
         "archived": false,
         "attributes": {}
     },
-    "connections": [
-        {
-            "_id": "6201772b40eba1001e52fbaf",
-            "created_at": "2022-02-07T19:46:51.438Z",
-            "updated_at": "2022-02-07T20:07:35.510Z",
-            "template_id": "62012a2475ce1c001dde735a",
-            "created_by_id": "61d5c1cc743a58001fad3e92",
-            "owner_id": "61d5c1cc743a58001fad3e92",
-            "sequence": 1,
-            "type": "Salesforce",
-            "emails": [],
-            "mappings": [],
-            "public_form": {
-                "allow_only_one_public_form_submission": false,
-                "disable_formyoula_branding": false
-            },
-            "salesforce": {
-                "disable_salesforce_record_update": false,
-                "enable_do_not_send_controlled_fields": false,
-                "skip_upsert_record_updates": false,
-                "enable_blank_values": false,
-                "use_form_owner": false,
-                "object_id": "Custom_Order__c",
-                "object_name": "Custom Order",
-                "upsert_field": ""
-            },
-            "is_disabled": false,
-            "version": 1,
-            "__v": 2,
-            "push_updates": false
-        },
-        {
-            "_id": "62017c19168896001ede0b4a",
-            "created_at": "2022-02-07T20:07:53.207Z",
-            "updated_at": "2022-02-07T20:08:18.651Z",
-            "template_id": "62012a2475ce1c001dde735a",
-            "created_by_id": "61d5c1cc743a58001fad3e92",
-            "owner_id": "61d5c1cc743a58001fad3e92",
-            "sequence": 2,
-            "type": "Salesforce",
-            "emails": [],
-            "mappings": [
-                {
-                    "field_id": "Name",
-                    "field_name": "Product 3 Name ( Name )",
-                    "component_id": "38e9-bb76-799b",
-                    "component_name": "Product Name ( Page: Details | Repeat: Repeat Group )"
-                }
-            ],
-            "public_form": {
-                "allow_only_one_public_form_submission": false,
-                "disable_formyoula_branding": false
-            },
-            "salesforce": {
-                "disable_salesforce_record_update": false,
-                "enable_do_not_send_controlled_fields": false,
-                "skip_upsert_record_updates": false,
-                "enable_blank_values": false,
-                "use_form_owner": false,
-                "object_id": "Product_v3__c",
-                "object_name": "Product v3",
-                "upsert_field": "",
-                "attachment": "",
-                "repeat_group": "082a-64af-eebc",
-                "skip_field": "",
-                "skip_field_false": "",
-                "update_field": ""
-            },
-            "is_disabled": false,
-            "version": 1,
-            "__v": 1,
-            "push_updates": false,
-            "description": ""
-        }
-    ]
+    "connections": []
 }
