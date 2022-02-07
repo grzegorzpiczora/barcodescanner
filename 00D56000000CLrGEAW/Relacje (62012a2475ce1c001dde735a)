@@ -78,7 +78,7 @@
                         "required": false,
                         "object_api_name": "Contact",
                         "sfdc_query_limit": "",
-                        "sfdc_filter_fields": "",
+                        "sfdc_filter_fields": "AccountId='{{f3d0-66a1-b9d8}}'",
                         "sfdc_query_order_by": "",
                         "components": [
                             {
@@ -109,12 +109,15 @@
                             }
                         ],
                         "repeat_value": [],
-                        "controlling_elements": []
+                        "controlling_elements": [],
+                        "sfdc_auto_fill_id": ""
                     }
                 ]
             }
         ],
-        "connections": [],
+        "connections": [
+            "Salesforce"
+        ],
         "created_by": {
             "last_name": "Piczura",
             "first_name": "Grzegorz",
@@ -126,5 +129,55 @@
         "archived": false,
         "attributes": {}
     },
-    "connections": []
+    "connections": [
+        {
+            "_id": "6201845983c64c001d589bf5",
+            "created_at": "2022-02-07T20:43:05.944Z",
+            "updated_at": "2022-02-07T20:43:40.067Z",
+            "template_id": "62012a2475ce1c001dde735a",
+            "created_by_id": "61d5c1cc743a58001fad3e92",
+            "owner_id": "61d5c1cc743a58001fad3e92",
+            "sequence": 1,
+            "type": "Salesforce",
+            "emails": [],
+            "mappings": [
+                {
+                    "field_id": "FirstName",
+                    "field_name": "First Name ( FirstName )",
+                    "component_id": "b109-d860-d828",
+                    "component_name": "First Name ( Page: Details | Repeat: Repeat Group )"
+                },
+                {
+                    "field_id": "LastName",
+                    "field_name": "Last Name ( LastName )",
+                    "component_id": "76f6-d6cd-cf90",
+                    "component_name": "Last Name ( Page: Details | Repeat: Repeat Group )"
+                }
+            ],
+            "public_form": {
+                "allow_only_one_public_form_submission": false,
+                "disable_formyoula_branding": false
+            },
+            "salesforce": {
+                "disable_salesforce_record_update": false,
+                "enable_do_not_send_controlled_fields": false,
+                "skip_upsert_record_updates": false,
+                "enable_blank_values": false,
+                "use_form_owner": false,
+                "object_id": "Contact",
+                "object_name": "Contact",
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "5833-68b3-7402",
+                "skip_field": "",
+                "skip_field_false": "",
+                "update_field": ""
+            },
+            "is_disabled": false,
+            "version": 1,
+            "__v": 2,
+            "push_updates": false,
+            "description": ""
+        }
+    ]
 }
