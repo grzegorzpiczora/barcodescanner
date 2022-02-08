@@ -76,12 +76,42 @@
                             "add_button_label": ""
                         },
                         "required": false,
-                        "object_api_name": "Custom_Order__c",
+                        "object_api_name": "Product_v3__c",
                         "sfdc_query_limit": "",
                         "sfdc_filter_fields": "",
                         "sfdc_query_order_by": "",
                         "sfdc_auto_fill_id": "",
-                        "components": [],
+                        "components": [
+                            {
+                                "type": "Text",
+                                "name": "Text",
+                                "category": "input",
+                                "label": "Product name",
+                                "icon": "/scripts/formbuilder/img/text.png",
+                                "component_id": "8c61-5398-80a1",
+                                "attributes": {
+                                    "readonly": "no"
+                                },
+                                "required": false,
+                                "components": []
+                            },
+                            {
+                                "type": "Graphic",
+                                "value": "",
+                                "name": "Graphic",
+                                "width": "50",
+                                "category": "media",
+                                "label": "Product Image",
+                                "icon": "/scripts/formbuilder/img/graphic.png",
+                                "attributes": {
+                                    "position": "Center",
+                                    "base64": false
+                                },
+                                "component_id": "ad65-1663-d489",
+                                "required": false,
+                                "components": []
+                            }
+                        ],
                         "repeat_value": [],
                         "controlling_elements": []
                     }
