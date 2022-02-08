@@ -38,7 +38,7 @@
                             "query_limit": "10",
                             "query_fields": ""
                         },
-                        "sfdc_query_fields": "Id",
+                        "sfdc_query_fields": "Custom_Order__c,Product_v3__c",
                         "sfdc_query_limit": "10",
                         "sfdc_filter_fields": "",
                         "sfdc_query_visibility": "All Records",
@@ -46,7 +46,7 @@
                         "sfdc_query_search_group": "All Fields",
                         "sfdc_auto_fill_id": "6202863f3ba8f0001eae469e",
                         "object_label": "None Selected",
-                        "object_api_name": "Custom_Order__c",
+                        "object_api_name": "Order_Product_Relation__c",
                         "component_id": "de0b-2dec-29fd",
                         "required": false,
                         "components": [],
