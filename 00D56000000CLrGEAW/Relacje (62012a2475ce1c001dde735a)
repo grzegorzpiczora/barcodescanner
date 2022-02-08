@@ -19,7 +19,7 @@
                         "type": "Salesforce",
                         "name": "",
                         "category": "salesforce",
-                        "label": "Account Lookup",
+                        "label": "CustomOrder Lookup",
                         "icon": "/scripts/formbuilder/img/salesforce.png",
                         "version": "3",
                         "attributes": {
