@@ -52,6 +52,38 @@
                         "components": [],
                         "repeat_value": [],
                         "controlling_elements": []
+                    },
+                    {
+                        "type": "Repeat",
+                        "name": "Repeat Group",
+                        "category": "select",
+                        "label": "CustomOrder Repeat",
+                        "icon": "/scripts/formbuilder/img/repeat.png",
+                        "component_id": "f269-5797-d641",
+                        "attributes": {
+                            "custom_offline_lookup_filter": "",
+                            "offline_sync_filter": "",
+                            "all_expanded": true,
+                            "max_repeat_items": "",
+                            "sfdc_parent_field_name": "CreatedById",
+                            "sfdc_parent_component": "f3d0-66a1-b9d8",
+                            "list_view_fields": [
+                                ""
+                            ],
+                            "repeat_view_option": "list",
+                            "delete_button_label": "",
+                            "add_title_label": "",
+                            "add_button_label": ""
+                        },
+                        "required": false,
+                        "object_api_name": "Custom_Order__c",
+                        "sfdc_query_limit": "",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_order_by": "",
+                        "sfdc_auto_fill_id": "",
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
                     }
                 ]
             }
