@@ -16,6 +16,44 @@
                 "deployed": true,
                 "components": [
                     {
+                        "type": "SalesforcePrefill",
+                        "name": "",
+                        "category": "salesforce",
+                        "label": "Prefill record",
+                        "icon": "/scripts/formbuilder/img/salesforce.png",
+                        "version": "2",
+                        "attributes": {
+                            "custom_offline_lookup_filter": "",
+                            "offline_sync_filter": "",
+                            "sfdc_parent_field_name": "CreatedById",
+                            "sfdc_parent_component": "",
+                            "prefill_mappings": [],
+                            "button": "Select",
+                            "position": "Fill",
+                            "auto_fill_id": "",
+                            "query_search_group": "",
+                            "query_order_by": "",
+                            "query_visibility": "",
+                            "filter_fields": "",
+                            "query_limit": "",
+                            "query_fields": ""
+                        },
+                        "sfdc_query_fields": "CreatedById",
+                        "sfdc_query_limit": "",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_visibility": "",
+                        "sfdc_query_order_by": "",
+                        "sfdc_query_search_group": "",
+                        "sfdc_auto_fill_id": "",
+                        "object_label": "None Selected",
+                        "object_api_name": "Custom_Order__c",
+                        "component_id": "08e7-1ad9-0777",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
                         "type": "Salesforce",
                         "name": "",
                         "category": "salesforce",
@@ -121,21 +159,14 @@
         {
             "_id": "6202863f3ba8f0001eae469e",
             "created_at": "2022-02-08T15:03:27.668Z",
-            "updated_at": "2022-02-08T15:53:05.057Z",
+            "updated_at": "2022-02-08T16:19:16.241Z",
             "template_id": "62012a2475ce1c001dde735a",
             "created_by_id": "61d5c1cc743a58001fad3e92",
             "owner_id": "61d5c1cc743a58001fad3e92",
             "sequence": 1,
             "type": "Salesforce",
             "emails": [],
-            "mappings": [
-                {
-                    "field_id": "Name",
-                    "field_name": "Custom Order Name ( Name )",
-                    "component_id": "96b9-7d43-91fb",
-                    "component_name": "Custom Order Name ( Page: Details | Repeat: CustomOrder Repeat )"
-                }
-            ],
+            "mappings": [],
             "public_form": {
                 "allow_only_one_public_form_submission": false,
                 "disable_formyoula_branding": false
@@ -157,14 +188,14 @@
             },
             "is_disabled": false,
             "version": 1,
-            "__v": 1,
+            "__v": 2,
             "push_updates": false,
             "description": ""
         },
         {
             "_id": "620290f54439e8001da83989",
             "created_at": "2022-02-08T15:49:09.027Z",
-            "updated_at": "2022-02-08T15:50:32.381Z",
+            "updated_at": "2022-02-08T16:18:55.049Z",
             "template_id": "62012a2475ce1c001dde735a",
             "created_by_id": "61d5c1cc743a58001fad3e92",
             "owner_id": "61d5c1cc743a58001fad3e92",
@@ -175,8 +206,8 @@
                 {
                     "field_id": "Name",
                     "field_name": "Product 3 Name ( Name )",
-                    "component_id": "8c61-5398-80a1",
-                    "component_name": "Product name ( Page: Details | Repeat: CustomOrder Repeat )"
+                    "component_id": "1c44-b452-79b5",
+                    "component_name": "Product Name ( Page: Details | Repeat: Repeat Group )"
                 }
             ],
             "public_form": {
@@ -193,14 +224,14 @@
                 "object_name": "Product v3",
                 "upsert_field": "",
                 "attachment": "",
-                "repeat_group": "f269-5797-d641",
+                "repeat_group": "3407-e1ac-aea3",
                 "skip_field": "",
                 "skip_field_false": "",
                 "update_field": "f3d0-66a1-b9d8"
             },
             "is_disabled": false,
             "version": 1,
-            "__v": 1,
+            "__v": 3,
             "push_updates": false,
             "description": ""
         }
