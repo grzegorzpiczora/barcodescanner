@@ -40,7 +40,7 @@
                         },
                         "sfdc_query_fields": "Id",
                         "sfdc_query_limit": "10",
-                        "sfdc_filter_fields": "",
+                        "sfdc_filter_fields": "Id='{{f3d0-66a1-b9d8}}'",
                         "sfdc_query_visibility": "All Records",
                         "sfdc_query_order_by": "",
                         "sfdc_query_search_group": "All Fields",
@@ -74,11 +74,11 @@
         {
             "_id": "6202863f3ba8f0001eae469e",
             "created_at": "2022-02-08T15:03:27.668Z",
-            "updated_at": "2022-02-08T15:03:37.550Z",
+            "updated_at": "2022-02-08T15:06:24.468Z",
             "template_id": "62012a2475ce1c001dde735a",
             "created_by_id": "61d5c1cc743a58001fad3e92",
             "owner_id": "61d5c1cc743a58001fad3e92",
-            "sequence": 3,
+            "sequence": 1,
             "type": "Salesforce",
             "emails": [],
             "mappings": [],
@@ -94,12 +94,18 @@
                 "use_form_owner": false,
                 "object_id": "Custom_Order__c",
                 "object_name": "Custom Order",
-                "upsert_field": ""
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "",
+                "skip_field": "",
+                "skip_field_false": "",
+                "update_field": ""
             },
             "is_disabled": false,
             "version": 1,
             "__v": 0,
-            "push_updates": false
+            "push_updates": false,
+            "description": ""
         }
     ]
 }
