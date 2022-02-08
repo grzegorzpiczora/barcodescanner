@@ -40,7 +40,7 @@
                         },
                         "sfdc_query_fields": "Id",
                         "sfdc_query_limit": "10",
-                        "sfdc_filter_fields": "Id='{{f3d0-66a1-b9d8}}'",
+                        "sfdc_filter_fields": "Id='Custom_Order.Id",
                         "sfdc_query_visibility": "All Records",
                         "sfdc_query_order_by": "",
                         "sfdc_query_search_group": "All Fields",
