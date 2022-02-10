@@ -98,76 +98,76 @@
                         "sfdc_auto_fill_id": "6205302138c4aa001dd29abb",
                         "components": [
                             {
-                                "components": [],
-                                "required": false,
-                                "component_id": "9f2d-171b-64e5",
-                                "record_id": "",
-                                "object_api_name": "Product_v3__c",
-                                "object_label": "None Selected",
-                                "sfdc_auto_fill_id": "62053357b0d4950020176253",
-                                "sfdc_query_search_group": "All Fields",
-                                "sfdc_query_order_by": "",
-                                "sfdc_query_visibility": "All Records",
-                                "sfdc_filter_fields": "",
-                                "sfdc_query_limit": "10",
-                                "sfdc_query_fields": "Name",
-                                "attributes": {
-                                    "custom_offline_lookup_filter": "",
-                                    "offline_sync_filter": "",
-                                    "delete_value_button_label": "",
-                                    "show_auto_search_results": false,
-                                    "button": "Find",
-                                    "enable_barcode_scanner": true,
-                                    "position": "Fill",
-                                    "auto_fill_id": "",
-                                    "query_search_group": "",
-                                    "query_order_by": "",
-                                    "query_visibility": "",
-                                    "filter_fields": "",
-                                    "query_limit": "10",
-                                    "query_fields": ""
-                                },
-                                "version": "3",
-                                "icon": "/scripts/formbuilder/img/salesforce.png",
-                                "label": "Product Lookup",
-                                "category": "salesforce",
+                                "type": "Salesforce",
                                 "name": "",
-                                "type": "Salesforce"
+                                "category": "salesforce",
+                                "label": "Product Lookup",
+                                "icon": "/scripts/formbuilder/img/salesforce.png",
+                                "version": "3",
+                                "attributes": {
+                                    "query_fields": "",
+                                    "query_limit": "10",
+                                    "filter_fields": "",
+                                    "query_visibility": "",
+                                    "query_order_by": "",
+                                    "query_search_group": "",
+                                    "auto_fill_id": "",
+                                    "position": "Fill",
+                                    "enable_barcode_scanner": true,
+                                    "button": "Find Product",
+                                    "show_auto_search_results": false,
+                                    "delete_value_button_label": "",
+                                    "offline_sync_filter": "",
+                                    "custom_offline_lookup_filter": ""
+                                },
+                                "sfdc_query_fields": "Name",
+                                "sfdc_query_limit": "10",
+                                "sfdc_filter_fields": "",
+                                "sfdc_query_visibility": "All Records",
+                                "sfdc_query_order_by": "",
+                                "sfdc_query_search_group": "All Fields",
+                                "sfdc_auto_fill_id": "62053357b0d4950020176253",
+                                "object_label": "None Selected",
+                                "object_api_name": "Product_v3__c",
+                                "record_id": "",
+                                "component_id": "9f2d-171b-64e5",
+                                "required": false,
+                                "components": []
                             },
                             {
-                                "components": [],
-                                "required": false,
+                                "type": "Text",
+                                "name": "Text",
+                                "category": "input",
+                                "label": "Product Name",
+                                "icon": "/scripts/formbuilder/img/text.png",
+                                "component_id": "8b1c-8832-4e15",
                                 "attributes": {
                                     "readonly": "no"
                                 },
-                                "component_id": "8b1c-8832-4e15",
-                                "icon": "/scripts/formbuilder/img/text.png",
-                                "label": "Product Name",
-                                "category": "input",
-                                "name": "Text",
-                                "type": "Text"
+                                "required": false,
+                                "components": []
                             },
                             {
-                                "components": [],
-                                "required": false,
-                                "component_id": "03fe-9715-6be8",
-                                "icon": "/scripts/formbuilder/img/number.png",
-                                "label": "Quantity",
-                                "category": "input",
-                                "name": "Number",
                                 "type": "Number",
+                                "name": "Number",
+                                "category": "input",
+                                "label": "Quantity",
+                                "icon": "/scripts/formbuilder/img/number.png",
+                                "component_id": "03fe-9715-6be8",
+                                "required": false,
+                                "components": [],
                                 "attributes": {}
                             },
                             {
-                                "components": [],
-                                "required": false,
-                                "component_id": "2621-fe99-a8a2",
-                                "icon": "/scripts/formbuilder/img/hidden.png",
-                                "label": "Relation ID",
-                                "category": "input",
-                                "name": "Hidden",
-                                "value": "",
                                 "type": "Hidden",
+                                "value": "",
+                                "name": "Hidden",
+                                "category": "input",
+                                "label": "Relation ID",
+                                "icon": "/scripts/formbuilder/img/hidden.png",
+                                "component_id": "2621-fe99-a8a2",
+                                "required": false,
+                                "components": [],
                                 "attributes": {}
                             }
                         ],
@@ -289,7 +289,7 @@
         {
             "_id": "6205302138c4aa001dd29abb",
             "created_at": "2022-02-10T15:32:49.152Z",
-            "updated_at": "2022-02-10T15:49:25.793Z",
+            "updated_at": "2022-02-10T15:56:31.354Z",
             "template_id": "62053015b0d4950020176249",
             "created_by_id": "61d5c1cc743a58001fad3e92",
             "owner_id": "61d5c1cc743a58001fad3e92",
@@ -297,12 +297,6 @@
             "type": "Salesforce",
             "emails": [],
             "mappings": [
-                {
-                    "field_id": "Product_v3__c",
-                    "field_name": "Product v3 ( Product_v3__c )",
-                    "component_id": "1c38-9fe7-d2fb",
-                    "component_name": "Select Record ( Page: Details | Repeat: Order Products )"
-                },
                 {
                     "field_id": "Custom_Order__c",
                     "field_name": "Custom Order ( Custom_Order__c )",
@@ -314,6 +308,12 @@
                     "field_name": "Existing Record ID (Only For Updates)",
                     "component_id": "2621-fe99-a8a2",
                     "component_name": "Relation ID ( Page: Details | Repeat: Order Products )"
+                },
+                {
+                    "field_id": "Product_v3__c",
+                    "field_name": "Product v3 ( Product_v3__c )",
+                    "component_id": "9f2d-171b-64e5",
+                    "component_name": "Product Lookup ( Page: Details | Repeat: Order Product )"
                 }
             ],
             "public_form": {
@@ -337,7 +337,7 @@
             },
             "is_disabled": false,
             "version": 1,
-            "__v": 3,
+            "__v": 5,
             "push_updates": false,
             "description": ""
         }
