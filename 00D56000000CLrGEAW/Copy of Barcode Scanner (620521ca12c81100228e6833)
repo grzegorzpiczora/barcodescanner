@@ -1,0 +1,912 @@
+{
+    "form": {
+        "created_at": "2022-02-10T14:31:38.481Z",
+        "name": "Copy of Barcode Scanner",
+        "page_count": 1,
+        "deployed": true,
+        "created_by_id": "61d5c1cc743a58001fad3e92",
+        "owner_id": "61d5c1cc743a58001fad3e92",
+        "attributes": {
+            "language_locale_key": "",
+            "is_repeat": true,
+            "is_header_hidden": true,
+            "is_navigation_hidden": true,
+            "enable_sfdc_storage": false,
+            "enable_access_for_community_users": false,
+            "disable_salesforce_offline_sync": false,
+            "disable_salesforce_retry_with_form_owner": false
+        },
+        "current_page": 0,
+        "description": "",
+        "tags": "",
+        "pages": [
+            {
+                "page_id": "6eef-fd7d-4cac",
+                "title": "Home",
+                "page_index": 0,
+                "component_count": null,
+                "deployed": true,
+                "components": [
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "CSS",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "bc6c-299e-a0bd",
+                        "attributes": {
+                            "html_edit": "<style>\n.list-group-item.select_salesforce_record {\nbackground: #FAFAFA;\ncolor: #000;\n}\n.list-group-item.select_salesforce_record:hover {\nbackground: yellow !important;\n}\n\n.ca24-7c59-0e82{\n  background: #ECF0F1 ;\n}\n\n.form-control-lg,\n.form-control.input-number,\n.form-control.input_content {\n    padding: 2rem;\n    font-size: 18px;\n    line-height: 1.5;\n}\n\nbutton.lookup_salesforce_record,\n.delete_field_value_button {\n    padding:1rem;\n    font-size:18px;\n    line-height:1.5;\n}\n\n/* Cancel button */\n.cancel_and_close {\n  margin-top: 4rem;\n  position: relative !important;\n  box-shadow: none !important;\n  border-radius: 4px !important;\n  right: auto !important;\n  bottom: auto !important;\n}\n\n#component-ca24-7c59-0e82 {\n    margin-top: 1rem;\n}\n#component-553d-599f-a72d  {\n    margin-top: 2rem;\n}\n\n/* Find Product Wrapper */\n.customLookup {\n    display: flex;\n    justify-content: space-between;\n}\n/* Find Product Button */\n#component-3560-6293-bbc5 {\n    flex: 11;\n}\n#component-3560-6293-bbc5 .btn {\n    width: 80% !important;\n}\n/* Find Product Reset Button */\n#component-4222-6acd-283e {\n    flex: 1;\n\n}\n\n/* Cance Button */\n#component-7b66-a7b8-07d5 {\n  margin-top: 2rem;\n}\n\n</style>",
+                            "html_detail": "",
+                            "enable_reload_on_merge_field_change": "true"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "Separator",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "c41d-b32c-459a",
+                        "attributes": {
+                            "html_edit": "<div style=\"height:8rem\"></div>",
+                            "html_detail": "<div style=\"height:8rem\"></div>",
+                            "enable_reload_on_merge_field_change": "true"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Graphic",
+                        "value": "00D56000000CLrGEAW/61d5f3c7b933de001ff8b510/ac0e-6e86-c8b7.image/png",
+                        "name": "Graphic",
+                        "width": "20",
+                        "category": "media",
+                        "label": "Graphic Field",
+                        "icon": "/scripts/formbuilder/img/graphic.png",
+                        "attributes": {
+                            "position": "Center",
+                            "base64": true,
+                            "data": "data:image/png;base64,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"
+                        },
+                        "component_id": "ac0e-6e86-c8b7",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Header",
+                        "name": "Header",
+                        "category": "input",
+                        "label": "Barcode Scanner",
+                        "icon": "/scripts/formbuilder/img/header.png",
+                        "header": "H2",
+                        "component_id": "46e1-7952-3437",
+                        "attributes": {
+                            "position": "Center"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "Separator",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "e1d2-44b8-010d",
+                        "attributes": {
+                            "html_edit": "<div style=\"height:4rem\"></div>",
+                            "html_detail": "",
+                            "enable_reload_on_merge_field_change": "false"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Navigation",
+                        "name": "Navigation",
+                        "category": "input",
+                        "label": "New Product",
+                        "icon": "/scripts/formbuilder/img/navigation.png",
+                        "version": "2",
+                        "attributes": {
+                            "action": "next",
+                            "position": "Fill",
+                            "button_type": "standard",
+                            "button_color": "#d9534f",
+                            "button_border_color": "#d9534f",
+                            "text_color": "#ffffff",
+                            "go_to_page": "2",
+                            "floating_position": "bottom_right"
+                        },
+                        "component_id": "f3f5-2666-bb0f",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Navigation",
+                        "name": "Navigation",
+                        "category": "input",
+                        "label": "Update Product",
+                        "icon": "/scripts/formbuilder/img/navigation.png",
+                        "version": "2",
+                        "attributes": {
+                            "action": "next",
+                            "position": "Fill",
+                            "button_type": "standard",
+                            "button_color": "#ec9909",
+                            "button_border_color": "#ec9909",
+                            "text_color": "#ffffff",
+                            "go_to_page": "3",
+                            "floating_position": "bottom_right"
+                        },
+                        "component_id": "2a71-7db6-1826",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Navigation",
+                        "name": "Navigation",
+                        "category": "input",
+                        "label": "Show All",
+                        "icon": "/scripts/formbuilder/img/navigation.png",
+                        "version": "2",
+                        "attributes": {
+                            "action": "next",
+                            "position": "Fill",
+                            "button_type": "standard",
+                            "button_color": "#5bc0de",
+                            "button_border_color": "#5bc0de",
+                            "text_color": "#ffffff",
+                            "go_to_page": "4",
+                            "floating_position": "bottom_right"
+                        },
+                        "component_id": "ba22-cad6-0069",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Navigation",
+                        "name": "Navigation",
+                        "category": "input",
+                        "label": "Exit",
+                        "icon": "/scripts/formbuilder/img/navigation.png",
+                        "version": "2",
+                        "attributes": {
+                            "action": "cancel_and_close",
+                            "position": "Fill",
+                            "button_type": "floating",
+                            "button_color": "#eeeeee",
+                            "button_border_color": "#eeeeee",
+                            "text_color": "#000000",
+                            "go_to_page": "",
+                            "floating_position": "bottom_right"
+                        },
+                        "component_id": "7b66-a7b8-07d5",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "JavaScript",
+                        "name": "JavaScript",
+                        "category": "media",
+                        "label": "JavaScript",
+                        "version": "2",
+                        "component_id": "f0b7-6b1a-52fc",
+                        "attributes": {
+                            "script": "$('.glyphicon-pencil').addClass('glyphicon-play-circle').removeClass('glyphicon-pencil');",
+                            "script_detail": ""
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    }
+                ]
+            },
+            {
+                "page_id": "6b00-f1a8-8fa3",
+                "title": "New Product",
+                "page_index": 1,
+                "component_count": null,
+                "deployed": true,
+                "components": [
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "CSS",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "1323-1e20-89d2",
+                        "attributes": {
+                            "html_edit": "<style type=\"text/css\">\n/* Header */\nbody {\n  overflow-x: hidden;\n}\n#component_list {\n  margin-top:0 !important;\n}\n/* CSS */\n#component-1323-1e20-89d2 {\n  margin-bottom:0;\n}\n/* Separator */\n#component-94a1-6cd0-736c {\n  margin-bottom: -1px;\n}\n/* Separator, Header */\n#component-94a1-6cd0-736c,\n#component-a369-7ec2-93fc {\n  margin-left:-50px;\n  margin-right:-50px;\n  background: #11a6c1;\n\n}\n\n#component-a369-7ec2-93fc {\n  padding-bottom:20px;\n    margin-bottom:4rem;\n    padding-top: 10px;\n    color: #FFF;\n}\n\n/* End Header */\n\n.form-control-lg,\n.form-control.input-number,\n.form-control.input_content {\n    padding: 2rem;\n    font-size: 18px;\n    line-height: 1.5;\n}\n\n</style>",
+                            "html_detail": "<style>\nbody { border: 3px solid blue; }",
+                            "enable_reload_on_merge_field_change": "true"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "Separator",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "94a1-6cd0-736c",
+                        "attributes": {
+                            "html_edit": "<div style=\"height:1rem\"></div>",
+                            "html_detail": "<div style=\"height:1rem\"></div>",
+                            "enable_reload_on_merge_field_change": "true"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Header",
+                        "name": "Header",
+                        "category": "input",
+                        "label": "New Product",
+                        "icon": "/scripts/formbuilder/img/header.png",
+                        "header": "H2",
+                        "component_id": "a369-7ec2-93fc",
+                        "attributes": {
+                            "position": "Center"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "Separator",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "d644-fa77-ceba",
+                        "attributes": {
+                            "html_edit": "<div style=\"height:1rem\"></div>",
+                            "html_detail": "<div style=\"height:1rem\"></div>",
+                            "enable_reload_on_merge_field_change": "true"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Text",
+                        "name": "Text",
+                        "category": "input",
+                        "label": "Product Name",
+                        "icon": "/scripts/formbuilder/img/text.png",
+                        "component_id": "7592-22d0-cfe1",
+                        "attributes": {
+                            "readonly": "no"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Number",
+                        "name": "Number",
+                        "category": "input",
+                        "label": "Quantity",
+                        "icon": "/scripts/formbuilder/img/number.png",
+                        "component_id": "02fe-a02d-be27",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Photo",
+                        "name": "Photo",
+                        "category": "media",
+                        "label": "Product Image",
+                        "icon": "/scripts/formbuilder/img/photo.png",
+                        "quality": "High",
+                        "component_id": "0f80-3c6e-37c8",
+                        "attributes": {
+                            "photo_source_selection_label": "",
+                            "library_button_lable": "",
+                            "camera_button_lable": "",
+                            "album_button_lable": "",
+                            "camera_direction": "back",
+                            "saveToPhotoAlbum": false,
+                            "default_source": "1"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Navigation",
+                        "name": "Navigation",
+                        "category": "input",
+                        "label": "Submit",
+                        "icon": "/scripts/formbuilder/img/navigation.png",
+                        "version": "2",
+                        "attributes": {
+                            "action": "finish",
+                            "position": "Fill",
+                            "button_type": "standard",
+                            "button_color": "#5cb85c",
+                            "button_border_color": "#5cb85c",
+                            "text_color": "#ffffff",
+                            "go_to_page": "",
+                            "floating_position": "bottom_right"
+                        },
+                        "component_id": "deb3-c959-6a6f",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Navigation",
+                        "name": "Navigation",
+                        "category": "input",
+                        "label": "Cancel",
+                        "icon": "/scripts/formbuilder/img/navigation.png",
+                        "version": "2",
+                        "attributes": {
+                            "action": "cancel",
+                            "position": "Fill",
+                            "button_type": "standard",
+                            "button_color": "#eeeeee",
+                            "button_border_color": "#eeeeee",
+                            "text_color": "#000000",
+                            "go_to_page": "",
+                            "floating_position": "bottom_right"
+                        },
+                        "component_id": "bdac-51a5-97f7",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    }
+                ]
+            },
+            {
+                "page_id": "ad2c-b483-3d0a",
+                "title": "Update Product",
+                "component_count": 14,
+                "page_index": 2,
+                "deployed": true,
+                "components": [
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "CSS",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "681b-13ba-2fb0",
+                        "attributes": {
+                            "html_edit": "<style>\n/* Header */\nbody {\n  overflow-x: hidden;\n}\n#component_list {\n  margin-top:0 !important;\n}\n/* CSS */\n#component-681b-13ba-2fb0 {\n  margin-bottom:0;\n}\n/* Separator */\n#component-38f5-500a-9b51 {\n  margin-bottom: -1px;\n}\n/* Separator, Header */\n#component-38f5-500a-9b51,\n#component-d058-22d4-6f1e {\n  margin-left:-50px;\n  margin-right:-50px;\n  background: #11a6c1;\n\n}\n/* Header */\n#component-d058-22d4-6f1e {\n  padding-bottom:20px;\n    margin-bottom:4rem;\n    padding-top: 10px;\n    color: #FFF;\n}\n\n/* End Header */\n/* Reset Button */\n.reset_button {\n  width: 100%;\n}\n\n.list-group-item.select_salesforce_record {\nbackground: #FAFAFA;\ncolor: #000;\n}\n.list-group-item.select_salesforce_record:hover {\n    border-color: orange !important;\n    background: #ffa50008 !important;\n}\n\n.ca24-7c59-0e82{\n  background: #ECF0F1 ;\n}\n\n.form-control-lg,\n.form-control.input-number,\n.form-control.input_content {\n    padding: 2rem;\n    font-size: 18px;\n    line-height: 1.5;\n}\n\nbutton.lookup_salesforce_record,\n.delete_field_value_button {\n    padding:1rem;\n    font-size:18px;\n    line-height:1.5;\n}\n\n\n\n\n#component-ca24-7c59-0e82 {\n    margin-top: 1rem;\n}\n#component-553d-599f-a72d  {\n    margin-top: 2rem;\n}\n\n\n#component-4222-6acd-283e .btn {\n    display: block;\n    margin: 0 auto;\n}\n\n</style>",
+                            "html_detail": "",
+                            "enable_reload_on_merge_field_change": "true"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "Separator",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "38f5-500a-9b51",
+                        "attributes": {
+                            "html_edit": "<div style=\"height:1rem\"></div>",
+                            "html_detail": "<div style=\"height:1rem\"></div>",
+                            "enable_reload_on_merge_field_change": "true"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Header",
+                        "name": "Header",
+                        "category": "input",
+                        "label": "Update Product",
+                        "icon": "/scripts/formbuilder/img/header.png",
+                        "header": "H2",
+                        "component_id": "d058-22d4-6f1e",
+                        "attributes": {
+                            "position": "Center"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "Separator",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "0914-0bb3-c0fb",
+                        "attributes": {
+                            "html_edit": "<div style=\"height:1rem\"></div>",
+                            "html_detail": "<div style=\"height:1rem\"></div>",
+                            "enable_reload_on_merge_field_change": "true"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Salesforce",
+                        "name": "",
+                        "category": "salesforce",
+                        "label": "Find Product",
+                        "icon": "/scripts/formbuilder/img/salesforce.png",
+                        "version": "3",
+                        "attributes": {
+                            "query_fields": "",
+                            "query_limit": "10",
+                            "filter_fields": "",
+                            "query_visibility": "",
+                            "query_order_by": "",
+                            "query_search_group": "",
+                            "auto_fill_id": "",
+                            "position": "Fill",
+                            "enable_barcode_scanner": true,
+                            "button": "Find Product",
+                            "show_auto_search_results": false,
+                            "delete_value_button_label": "",
+                            "offline_sync_filter": "",
+                            "custom_offline_lookup_filter": ""
+                        },
+                        "sfdc_query_fields": "Name,Product_Image__c,Id,User_Name__c",
+                        "sfdc_query_limit": "10",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_visibility": "All Records",
+                        "sfdc_query_order_by": "",
+                        "sfdc_query_search_group": "All Fields",
+                        "sfdc_auto_fill_id": "620521ca12c81100228e685c",
+                        "object_label": "None Selected",
+                        "object_api_name": "Product_v3__c",
+                        "component_id": "3560-6293-bbc5",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "Reset Button",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "4222-6acd-283e",
+                        "attributes": {
+                            "html_edit": "<input class=\"btn btn-lg btn-default reset_button\" type=\"reset\" value=\"Reset\" onclick=\"reset_values()\">",
+                            "html_detail": "<input class=\"btn btn-lg btn-default\" type=\"reset\" value=\"Reset\" onclick=\"reset_values()\">",
+                            "enable_reload_on_merge_field_change": "true"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Number",
+                        "name": "Number",
+                        "category": "input",
+                        "label": "Stock",
+                        "icon": "/scripts/formbuilder/img/number.png",
+                        "component_id": "ca24-7c59-0e82",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "Update inventory",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "3d24-225a-e949",
+                        "attributes": {
+                            "html_edit": "<div class=\"form-group formyoula-Number quantityUpdate\">\n    <label class=\"col-sm-2 control-label input_label\">Update inventory</label>\n    <div class=\"col-sm-10\">\n    <div class=\"input-group\">\n\n        <span class=\"input-group-btn\">\n            <button type=\"button\" class=\"btn btn-lg btn-danger btn-number\"  data-type=\"minus\" data-field=\"quant[2]\" disabled>\n              <span class=\"glyphicon glyphicon-minus\"></span>\n            </button>\n        </span>\n        <input type=\"text\" name=\"quant[2]\" class=\"form-control form-control-lg input-number\" value=\"0\" min=\"-100\" max=\"100\" disabled>\n        <span class=\"input-group-btn\">\n            <button type=\"button\" class=\"btn btn-lg btn-success btn-number\" data-type=\"plus\" data-field=\"quant[2]\" disabled>\n                <span class=\"glyphicon glyphicon-plus\"></span>\n            </button>\n        </span>\n    </div>\n    </div>\n    </div>",
+                            "html_detail": "",
+                            "enable_reload_on_merge_field_change": "true"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Navigation",
+                        "name": "Navigation",
+                        "category": "input",
+                        "label": "Submit",
+                        "icon": "/scripts/formbuilder/img/navigation.png",
+                        "version": "2",
+                        "attributes": {
+                            "action": "finish",
+                            "position": "Fill",
+                            "button_type": "standard",
+                            "button_color": "#5cb85c",
+                            "button_border_color": "#5cb85c",
+                            "text_color": "#ffffff",
+                            "go_to_page": "2",
+                            "floating_position": "bottom_right"
+                        },
+                        "component_id": "553d-599f-a72d",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Navigation",
+                        "name": "Navigation",
+                        "category": "input",
+                        "label": "Cancel",
+                        "icon": "/scripts/formbuilder/img/navigation.png",
+                        "version": "2",
+                        "attributes": {
+                            "action": "cancel",
+                            "position": "Fill",
+                            "button_type": "standard",
+                            "button_color": "#eeeeee",
+                            "button_border_color": "#eeeeee",
+                            "text_color": "#000000",
+                            "go_to_page": "1",
+                            "floating_position": "bottom_right"
+                        },
+                        "component_id": "f30c-0d7f-2f8b",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "JavaScript",
+                        "name": "JavaScript",
+                        "category": "media",
+                        "label": "QuantityJS",
+                        "version": "2",
+                        "component_id": "0e55-6922-74fb",
+                        "attributes": {
+                            "script": "$('.btn-number').click(function(e){\n        e.preventDefault();\n        let numberOfItem;\n        let tmp;\n       \n        \n        fieldName = $(this).attr('data-field');\n        type      = $(this).attr('data-type');\n        var input = $(\"input[name='\"+fieldName+\"']\");\n        var currentVal = parseInt(input.val());\n        if (!isNaN(currentVal)) {\n            if(type == 'minus') {\n                \n                if(currentVal > input.attr('min')) {\n                    input.val(currentVal - 1).change();\n                } \n                if(parseInt(input.val()) == input.attr('min')) {\n                    $(this).attr('disabled', true);\n                }\n                numberOfItem = $('#component-ca24-7c59-0e82 .input_content').val();\n                tmp = parseInt(numberOfItem) - 1;\n                numberOfItem = tmp;\n       \n                $('#component-ca24-7c59-0e82 .input_content').attr('value', tmp).change();\n                // Aktualny Stan Readonly\n                $('.ca24-7c59-0e82').prop('readonly', true);\n                \n    \n            } else if(type == 'plus') {\n    \n                if(currentVal < input.attr('max')) {\n                    input.val(currentVal + 1).change();\n                }\n                if(parseInt(input.val()) == input.attr('max')) {\n                    $(this).attr('disabled', true);\n                }\n    \n    \n                numberOfItem = $('#component-ca24-7c59-0e82 .input_content').val();\n                tmp = parseInt(numberOfItem) + 1;\n                numberOfItem = tmp;\n                $('#component-ca24-7c59-0e82 .input_content').attr('value', tmp).change();\n                // Aktualny Stan Readonly\n                $('.ca24-7c59-0e82').prop('readonly', true);\n    \n            }\n        } else {\n            input.val(0);\n        }\n    });\n    $('.input-number').focusin(function(){\n       $(this).data('oldValue', $(this).val());\n    });\n    $('.input-number').change(function() {\n        \n        minValue =  parseInt($(this).attr('min'));\n        maxValue =  parseInt($(this).attr('max'));\n        valueCurrent = parseInt($(this).val());\n        \n        name = $(this).attr('name');\n        if(valueCurrent >= minValue) {\n            $(\".btn-number[data-type='minus'][data-field='\"+name+\"']\").removeAttr('disabled')\n        } else {\n            alert('Sorry, the minimum value was reached');\n            $(this).val($(this).data('oldValue'));\n        }\n        if(valueCurrent <= maxValue) {\n            $(\".btn-number[data-type='plus'][data-field='\"+name+\"']\").removeAttr('disabled')\n        } else {\n            alert('Sorry, the maximum value was reached');\n            $(this).val($(this).data('oldValue'));\n        }\n    \n    });\n    $(\".input-number\").keydown(function (e) {\n            // Allow: backspace, delete, tab, escape, enter and .\n            if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 190]) !== -1 ||\n                 // Allow: Ctrl+A\n                (e.keyCode == 65 && e.ctrlKey === true) || \n                 // Allow: home, end, left, right\n                (e.keyCode >= 35 && e.keyCode <= 39)) {\n                     // let it happen, don't do anything\n                     return;\n            }\n            // Ensure that it is a number and stop the keypress\n            if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {\n                e.preventDefault();\n            }\n        });\n    \n    // Force Click Event after Find button was clicked\n    $('.lookup_salesforce_record').on( \"click\", function() {\n        $('.scan_and_search_for_salesforce_record').trigger(\"click\");\n\n    });\n    \n\n    //Listen to changes on the text field \n    window.formyoula.form_fields['ca24-7c59-0e82'].on('all', function(){\n        //Set the number field value to 0 when the text field value is changed\n        if(window.formyoula.form_fields['ca24-7c59-0e82'].get('value') > 0) {\n            $('.quantityUpdate .input-number').prop('disabled', false);\n            $('.quantityUpdate .btn-danger').prop('disabled', false);\n            $('.quantityUpdate .btn-success').prop('disabled', false);\n        } else {\n            $('.quantityUpdate .input-number').prop('disabled', true);\n            $('.quantityUpdate .btn-danger').prop('disabled', true);\n            $('.quantityUpdate .btn-success').prop('disabled', true);\n        }\n        // Aktualny Stan Readonly\n        $('.ca24-7c59-0e82').prop('readonly', true);\n    });\n  \n    // Reset to 0 quantity field value\n    $('#component-3560-6293-bbc5').on(\"click\",\".delete_field_value_button\",  function() {\n        $('.ca24-7c59-0e82').val(0).change();\n        $('#component-3d24-225a-e949 .input-number').val(0).trigger(\"change\");\n    });\n\n    // Readonly to Aktualny Stan\n    $('.ca24-7c59-0e82').prop('readonly', true);\n\n\n \n\n\n\n\n    function reset_values() {\n        // 2d8b-b28f-b5ae component id of lookup field\n        formyoula.form_fields[ '3560-6293-bbc5' ].set( {\n          name: '',\n          value: ''\n        } );\n        // ec10-3900-c0a8 component id of number or text field\n        // Set value to zero\n        formyoula.form_fields[ 'ca24-7c59-0e82' ].set( {\n          value: '0'\n        } );\n        // e191-9320-ce5a component id of number or text field\n        // Set value to zero\n \n      }",
+                            "script_detail": ""
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    }
+                ]
+            },
+            {
+                "page_id": "27c5-ae56-13fa",
+                "title": "Products",
+                "page_index": 3,
+                "component_count": null,
+                "deployed": true,
+                "components": [
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "CSS",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "d023-0668-f509",
+                        "attributes": {
+                            "html_edit": "<style>\n/* Header */\nbody {\n  overflow-x: hidden;\n}\n#component_list {\n  margin-top:0 !important;\n}\n/* CSS */\n#component-d023-0668-f509 {\n  margin-bottom:0;\n}\n/*Separator */\n#component-6766-c8f5-7696 {\n  margin-bottom:-1px;\n}\n/* Separator, Header */\n#component-6766-c8f5-7696,\n#component-7ae7-8588-6828 {\n  margin-left:-50px;\n  margin-right:-50px;\n  background: #11a6c1;\n\n}\n/* Header */\n#component-7ae7-8588-6828 {\n  padding-bottom:20px;\n    margin-bottom:4rem;\n    padding-top: 10px;\n    color: #FFF;\n}\n/* End Header */\n\n/* Hide Show Entries Selectlist */\n#salesforce_table_f26f-aa75-6d93_length {\n  display: none !important;\n}\n/* Search box */\n#salesforce_table_f26f-aa75-6d93_filter {\n  margin-top:1rem;\n  margin-bottom: 1rem;\n}\n#salesforce_table_f26f-aa75-6d93_filter label {\n  display: flex;\n  align-items: center;\n}\n#salesforce_table_f26f-aa75-6d93_filter label input {\n  display: block;\n  width: 100%;\n}\n/* End Searchbox */\n/* Pagination */\n#salesforce_table_f26f-aa75-6d93_paginate {\n  margin-top: 2rem;\n}\n/* Showing Number of Entries */\n#salesforce_table_f26f-aa75-6d93_info {\n  color:#999\n}\n\n#salesforce_table_f26f-aa75-6d93_wrapper img { width:32px !important; height: 32px !important; }\n\n</style>",
+                            "html_detail": "",
+                            "enable_reload_on_merge_field_change": "true"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "Separator",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "6766-c8f5-7696",
+                        "attributes": {
+                            "html_edit": "<div style=\"height:1rem\"></div>",
+                            "html_detail": "<div style=\"height:1rem\"></div>",
+                            "enable_reload_on_merge_field_change": "false"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Header",
+                        "name": "Header",
+                        "category": "input",
+                        "label": "Product List",
+                        "icon": "/scripts/formbuilder/img/header.png",
+                        "header": "H2",
+                        "component_id": "7ae7-8588-6828",
+                        "attributes": {
+                            "position": "Center"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "HTML",
+                        "name": "HTML",
+                        "category": "media",
+                        "label": "Separator",
+                        "icon": "/scripts/formbuilder/img/paragraph.png",
+                        "component_id": "800a-6f37-cc43",
+                        "attributes": {
+                            "html_edit": "<div style=\"height:1rem\"></div>",
+                            "html_detail": "<div style=\"height:1rem\"></div>",
+                            "enable_reload_on_merge_field_change": "false"
+                        },
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "SalesforceTable",
+                        "name": "Salesforce Table",
+                        "category": "salesforce",
+                        "label": "Records",
+                        "icon": "/scripts/formbuilder/img/salesforce.png",
+                        "version": "3",
+                        "attributes": {
+                            "query_fields": "",
+                            "query_limit": "10",
+                            "filter_fields": "",
+                            "query_visibility": "",
+                            "query_order_by": "",
+                            "query_search_group": "",
+                            "table_page_length": "20",
+                            "custom_column_name": [
+                                {
+                                    "api_name": "Product_Image__c",
+                                    "column_label": "Image",
+                                    "data_type": "none",
+                                    "editable": false,
+                                    "required": false,
+                                    "default_value": "",
+                                    "default_option": ""
+                                },
+                                {
+                                    "api_name": "Name",
+                                    "column_label": "Name",
+                                    "data_type": "text",
+                                    "editable": false,
+                                    "required": false,
+                                    "default_value": "",
+                                    "default_option": ""
+                                },
+                                {
+                                    "api_name": "Quantity__c",
+                                    "column_label": "Quantity",
+                                    "data_type": "number",
+                                    "editable": true,
+                                    "required": false,
+                                    "default_value": "",
+                                    "default_option": ""
+                                },
+                                {
+                                    "api_name": "Price__c",
+                                    "column_label": "Price",
+                                    "data_type": "currency",
+                                    "editable": true,
+                                    "required": false,
+                                    "default_value": "",
+                                    "default_option": ""
+                                }
+                            ],
+                            "offline_sync_filter": "",
+                            "custom_offline_lookup_filter": "",
+                            "sfdc_parent_field_name": "",
+                            "sfdc_parent_component": "",
+                            "owner_field": "",
+                            "table_column_sort_order": "desc",
+                            "table_column_sort_index": "",
+                            "add_table_submit_button": true,
+                            "table_submit_button_label": "",
+                            "add_new_record_button": false,
+                            "enable_record_auto_submit": false
+                        },
+                        "sfdc_query_fields": "LastModifiedDate,Price__c,Name,Product_Image__c,Quantity__c",
+                        "sfdc_query_limit": "100000",
+                        "sfdc_filter_fields": "",
+                        "sfdc_query_visibility": "All Records",
+                        "sfdc_query_order_by": "LastModifiedDate DESC",
+                        "sfdc_query_search_group": "",
+                        "object_label": "None Selected",
+                        "object_api_name": "Product_v3__c",
+                        "component_id": "f26f-aa75-6d93",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    },
+                    {
+                        "type": "Navigation",
+                        "name": "Navigation",
+                        "category": "input",
+                        "label": "Cancel",
+                        "icon": "/scripts/formbuilder/img/navigation.png",
+                        "version": "2",
+                        "attributes": {
+                            "action": "cancel",
+                            "position": "Fill",
+                            "button_type": "standard",
+                            "button_color": "#eeeeee",
+                            "button_border_color": "#eeeeee",
+                            "text_color": "#2b1e3e",
+                            "go_to_page": "1",
+                            "floating_position": "bottom_right"
+                        },
+                        "component_id": "5041-970c-ee4b",
+                        "required": false,
+                        "components": [],
+                        "repeat_value": [],
+                        "controlling_elements": []
+                    }
+                ]
+            }
+        ],
+        "connections": [
+            "Salesforce",
+            "Salesforce"
+        ],
+        "created_by": {
+            "id": "61d5c1cc743a58001fad3e92",
+            "first_name": "Grzegorz",
+            "last_name": "Piczura"
+        },
+        "access": "Private",
+        "public": false,
+        "list_view_fields": null,
+        "archived": false
+    },
+    "connections": [
+        {
+            "_id": "620521ca12c81100228e685c",
+            "created_at": "2022-01-25T14:48:26.291Z",
+            "updated_at": "2022-02-10T14:31:38.660Z",
+            "template_id": "620521ca12c81100228e6833",
+            "created_by_id": "61d5c1cc743a58001fad3e92",
+            "owner_id": "61d5c1cc743a58001fad3e92",
+            "sequence": 1,
+            "type": "Salesforce",
+            "push_updates": true,
+            "description": "",
+            "emails": [],
+            "mappings": [
+                {
+                    "field_id": "Quantity__c",
+                    "field_name": "Quantity ( Quantity__c )",
+                    "component_id": "ca24-7c59-0e82",
+                    "component_name": "Aktualny Stan ( Page: Update Product )"
+                }
+            ],
+            "public_form": {
+                "allow_only_one_public_form_submission": false,
+                "disable_formyoula_branding": false
+            },
+            "salesforce": {
+                "object_id": "Product_v3__c",
+                "object_name": "Product v3",
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "",
+                "skip_field": "",
+                "skip_field_false": "ca24-7c59-0e82",
+                "update_field": "3560-6293-bbc5",
+                "disable_salesforce_record_update": false,
+                "enable_do_not_send_controlled_fields": false,
+                "skip_upsert_record_updates": false,
+                "enable_blank_values": false,
+                "use_form_owner": false
+            },
+            "is_disabled": false,
+            "version": 1,
+            "__v": 0
+        },
+        {
+            "_id": "620521ca12c81100228e685d",
+            "created_at": "2022-01-25T15:07:51.259Z",
+            "updated_at": "2022-02-10T14:31:38.673Z",
+            "template_id": "620521ca12c81100228e6833",
+            "created_by_id": "61d5c1cc743a58001fad3e92",
+            "owner_id": "61d5c1cc743a58001fad3e92",
+            "sequence": 2,
+            "type": "Salesforce",
+            "push_updates": false,
+            "description": "",
+            "emails": [],
+            "mappings": [
+                {
+                    "field_id": "Name",
+                    "field_name": "Product 3 Name ( Name )",
+                    "component_id": "7592-22d0-cfe1",
+                    "component_name": "Product Name ( Page: Create Product )"
+                },
+                {
+                    "field_id": "Quantity__c",
+                    "field_name": "Quantity ( Quantity__c )",
+                    "component_id": "02fe-a02d-be27",
+                    "component_name": "Quantity ( Page: Create Product )"
+                },
+                {
+                    "field_id": "Product_Image_URL__c",
+                    "field_name": "Product Image URL ( Product_Image_URL__c )",
+                    "component_id": "0f80-3c6e-37c8",
+                    "component_name": "Product Image ( Page: Create Product )"
+                }
+            ],
+            "public_form": {
+                "allow_only_one_public_form_submission": false,
+                "disable_formyoula_branding": false
+            },
+            "salesforce": {
+                "object_id": "Product_v3__c",
+                "object_name": "Product v3",
+                "upsert_field": "",
+                "attachment": "",
+                "repeat_group": "",
+                "skip_field": "",
+                "skip_field_false": "7592-22d0-cfe1",
+                "update_field": "",
+                "disable_salesforce_record_update": false,
+                "enable_do_not_send_controlled_fields": false,
+                "skip_upsert_record_updates": false,
+                "enable_blank_values": false,
+                "use_form_owner": false
+            },
+            "is_disabled": false,
+            "version": 1,
+            "__v": 0
+        }
+    ]
+}
