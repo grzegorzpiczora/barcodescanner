@@ -72,7 +72,7 @@
                         "type": "Repeat",
                         "name": "Repeat Group",
                         "category": "select",
-                        "label": "Order Products",
+                        "label": "Order Product",
                         "icon": "/scripts/formbuilder/img/repeat.png",
                         "component_id": "0609-03f2-c832",
                         "attributes": {
@@ -85,7 +85,7 @@
                             "list_view_fields": [
                                 ""
                             ],
-                            "repeat_view_option": "list",
+                            "repeat_view_option": "table",
                             "delete_button_label": "",
                             "add_title_label": "",
                             "add_button_label": ""
