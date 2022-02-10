@@ -26,7 +26,7 @@
                             "custom_offline_lookup_filter": "",
                             "offline_sync_filter": "",
                             "delete_value_button_label": "",
-                            "show_auto_search_results": false,
+                            "show_auto_search_results": true,
                             "button": "Find",
                             "enable_barcode_scanner": false,
                             "position": "Fill",
